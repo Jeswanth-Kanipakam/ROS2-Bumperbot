@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/bumperbot_localization/bumperbot_localization.egg-info
+writing ../build/bumperbot_localization/bumperbot_localization.egg-info/PKG-INFO
+writing dependency_links to ../build/bumperbot_localization/bumperbot_localization.egg-info/dependency_links.txt
+writing requirements to ../build/bumperbot_localization/bumperbot_localization.egg-info/requires.txt
+writing top-level names to ../build/bumperbot_localization/bumperbot_localization.egg-info/top_level.txt
+writing manifest file '../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+reading manifest file '../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+writing manifest file '../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib/bumperbot_localization
+copying bumperbot_localization/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib/bumperbot_localization
+running install
+running install_lib
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+copying /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib/bumperbot_localization/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+byte-compiling /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/packages
+copying resource/bumperbot_localization -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization
+running install_egg_info
+Copying ../build/bumperbot_localization/bumperbot_localization.egg-info to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/install.log'

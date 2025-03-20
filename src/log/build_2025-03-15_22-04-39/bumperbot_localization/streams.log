@@ -1,0 +1,45 @@
+[0.077s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization -- -j8 -l8
+[0.129s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.417s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.488s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.511s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.686s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.769s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.792s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.814s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.909s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.914s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.989s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.143s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.289s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.290s] -- Configured cppcheck include dirs: /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_localization/include
+[1.290s] -- Configured cppcheck exclude dirs and/or files: 
+[1.295s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.296s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.304s] -- Added test 'lint_cmake' to check CMake code style
+[1.307s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.330s] -- Added test 'uncrustify' to check C / C++ code style
+[1.331s] -- Configured uncrustify additional arguments: 
+[1.336s] -- Added test 'xmllint' to check XML markup files
+[1.350s] -- Configuring done (1.2s)
+[1.558s] -- Generating done (0.2s)
+[1.649s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization
+[1.703s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[1.704s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[1.720s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[2.007s] running egg_info
+[2.008s] creating bumperbot_localization.egg-info
+[2.042s] writing bumperbot_localization.egg-info/PKG-INFO
+[2.045s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[2.048s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[2.050s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.150s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.153s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.180s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[8.220s] [ 75%] [32m[1mLinking CXX executable imu_republisher[0m
+[8.639s] [ 75%] Built target imu_republisher
+[10.012s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[10.609s] [100%] Built target kalman_filter

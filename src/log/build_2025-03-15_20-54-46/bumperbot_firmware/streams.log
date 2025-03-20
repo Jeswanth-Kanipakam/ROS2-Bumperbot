@@ -1,0 +1,19 @@
+[1.819s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_firmware build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/install.log --single-version-externally-managed install_data
+[2.179s] running egg_info
+[2.212s] writing ../build/bumperbot_firmware/bumperbot_firmware.egg-info/PKG-INFO
+[2.215s] writing dependency_links to ../build/bumperbot_firmware/bumperbot_firmware.egg-info/dependency_links.txt
+[2.219s] writing requirements to ../build/bumperbot_firmware/bumperbot_firmware.egg-info/requires.txt
+[2.221s] writing top-level names to ../build/bumperbot_firmware/bumperbot_firmware.egg-info/top_level.txt
+[2.292s] reading manifest file '../build/bumperbot_firmware/bumperbot_firmware.egg-info/SOURCES.txt'
+[2.295s] writing manifest file '../build/bumperbot_firmware/bumperbot_firmware.egg-info/SOURCES.txt'
+[2.297s] running build
+[2.298s] running build_py
+[2.300s] running install
+[2.306s] running install_lib
+[2.344s] running install_data
+[2.346s] running install_egg_info
+[2.380s] removing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info' (and everything under it)
+[2.388s] Copying ../build/bumperbot_firmware/bumperbot_firmware.egg-info to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[2.414s] running install_scripts
+[2.633s] writing list of installed files to '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/install.log'
+[2.666s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_firmware build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware/install.log --single-version-externally-managed install_data

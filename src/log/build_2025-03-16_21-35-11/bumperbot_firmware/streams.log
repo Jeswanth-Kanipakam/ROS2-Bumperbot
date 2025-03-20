@@ -1,0 +1,32 @@
+[0.068s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware -- -j8 -l8
+[0.102s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.400s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.498s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.500s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.637s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.670s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.671s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[0.674s]   project has asked CMake to find a package configuration file provided by
+[0.674s]   "hardware_interface", but CMake did not find one.
+[0.674s] 
+[0.674s]   Could not find a package configuration file provided by
+[0.674s]   "hardware_interface" with any of the following names:
+[0.674s] 
+[0.674s]     hardware_interfaceConfig.cmake
+[0.674s]     hardware_interface-config.cmake
+[0.675s] 
+[0.675s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[0.675s]   set "hardware_interface_DIR" to a directory containing one of the above
+[0.676s]   files.  If "hardware_interface" provides a separate development package or
+[0.676s]   SDK, be sure it has been installed.
+[0.676s] 
+[0.676s] [0m
+[0.676s] -- Configuring incomplete, errors occurred!
+[0.685s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.686s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware -- -j8 -l8

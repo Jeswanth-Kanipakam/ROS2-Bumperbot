@@ -1,0 +1,32 @@
+[1.896s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_localization build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/install.log --single-version-externally-managed install_data
+[2.258s] running egg_info
+[2.259s] creating ../build/bumperbot_localization/bumperbot_localization.egg-info
+[2.294s] writing ../build/bumperbot_localization/bumperbot_localization.egg-info/PKG-INFO
+[2.298s] writing dependency_links to ../build/bumperbot_localization/bumperbot_localization.egg-info/dependency_links.txt
+[2.301s] writing requirements to ../build/bumperbot_localization/bumperbot_localization.egg-info/requires.txt
+[2.302s] writing top-level names to ../build/bumperbot_localization/bumperbot_localization.egg-info/top_level.txt
+[2.305s] writing manifest file '../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[2.380s] reading manifest file '../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[2.383s] writing manifest file '../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[2.385s] running build
+[2.386s] running build_py
+[2.387s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build
+[2.388s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib
+[2.388s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib/bumperbot_localization
+[2.390s] copying bumperbot_localization/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib/bumperbot_localization
+[2.393s] running install
+[2.399s] running install_lib
+[2.437s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[2.439s] copying /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build/lib/bumperbot_localization/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[2.443s] byte-compiling /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py to __init__.cpython-312.pyc
+[2.447s] running install_data
+[2.448s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index
+[2.449s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index
+[2.450s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/packages
+[2.451s] copying resource/bumperbot_localization -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/packages
+[2.454s] copying package.xml -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization
+[2.456s] running install_egg_info
+[2.490s] Copying ../build/bumperbot_localization/bumperbot_localization.egg-info to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[2.518s] running install_scripts
+[2.736s] writing list of installed files to '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/install.log'
+[2.764s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_localization build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization/install.log --single-version-externally-managed install_data

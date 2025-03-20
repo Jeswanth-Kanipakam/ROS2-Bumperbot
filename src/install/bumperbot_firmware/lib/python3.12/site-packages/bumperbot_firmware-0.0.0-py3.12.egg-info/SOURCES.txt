@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../build/bumperbot_firmware/bumperbot_firmware.egg-info/PKG-INFO
+../build/bumperbot_firmware/bumperbot_firmware.egg-info/SOURCES.txt
+../build/bumperbot_firmware/bumperbot_firmware.egg-info/dependency_links.txt
+../build/bumperbot_firmware/bumperbot_firmware.egg-info/requires.txt
+../build/bumperbot_firmware/bumperbot_firmware.egg-info/top_level.txt
+../build/bumperbot_firmware/bumperbot_firmware.egg-info/zip-safe
+bumperbot_firmware/__init__.py
+resource/bumperbot_firmware
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

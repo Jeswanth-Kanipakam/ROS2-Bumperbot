@@ -1,0 +1,7 @@
+{
+  "package_name": "bumperbot_msgs",
+  "non_idl_tuples": [
+    "/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_msgs:srv/AddTwoInts.srv",
+    "/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_msgs:srv/GetTransform.srv"
+  ]
+}

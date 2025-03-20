@@ -1,0 +1,11 @@
+[0.296s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization -- -j8 -l8
+[0.508s] [ 50%] Built target imu_republisher
+[0.511s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.517s] [100%] Built target kalman_filter
+[0.834s] running egg_info
+[0.868s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.871s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.874s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.978s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.009s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg

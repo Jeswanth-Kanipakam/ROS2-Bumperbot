@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/bumperbot_bringup/bumperbot_bringup.egg-info
+writing ../build/bumperbot_bringup/bumperbot_bringup.egg-info/PKG-INFO
+writing dependency_links to ../build/bumperbot_bringup/bumperbot_bringup.egg-info/dependency_links.txt
+writing requirements to ../build/bumperbot_bringup/bumperbot_bringup.egg-info/requires.txt
+writing top-level names to ../build/bumperbot_bringup/bumperbot_bringup.egg-info/top_level.txt
+writing manifest file '../build/bumperbot_bringup/bumperbot_bringup.egg-info/SOURCES.txt'
+reading manifest file '../build/bumperbot_bringup/bumperbot_bringup.egg-info/SOURCES.txt'
+writing manifest file '../build/bumperbot_bringup/bumperbot_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib/bumperbot_bringup
+copying bumperbot_bringup/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib/bumperbot_bringup
+running install
+running install_lib
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup
+copying /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib/bumperbot_bringup/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup
+byte-compiling /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index/resource_index
+creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index/resource_index/packages
+copying resource/bumperbot_bringup -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/bumperbot_bringup
+running install_egg_info
+Copying ../build/bumperbot_bringup/bumperbot_bringup.egg-info to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/install.log'

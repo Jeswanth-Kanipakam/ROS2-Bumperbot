@@ -1,0 +1,14 @@
+{
+  "package_name": "bumperbot_msgs",
+  "output_dir": "/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs/rosidl_generator_type_description/bumperbot_msgs",
+  "idl_tuples": [
+    "/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs:srv/AddTwoInts.idl",
+    "/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs:srv/GetTransform.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

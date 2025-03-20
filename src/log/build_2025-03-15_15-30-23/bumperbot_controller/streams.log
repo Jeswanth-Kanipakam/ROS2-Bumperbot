@@ -1,0 +1,35 @@
+[0.052s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller -- -j8 -l8
+[0.105s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.315s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.365s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.606s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.607s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.736s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.898s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.899s] -- Configured cppcheck include dirs: /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/include
+[0.899s] -- Configured cppcheck exclude dirs and/or files: 
+[0.902s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.903s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.910s] -- Added test 'lint_cmake' to check CMake code style
+[0.914s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.944s] -- Added test 'uncrustify' to check C / C++ code style
+[0.945s] -- Configured uncrustify additional arguments: 
+[0.949s] -- Added test 'xmllint' to check XML markup files
+[0.964s] -- Configuring done (0.9s)
+[1.136s] -- Generating done (0.2s)
+[1.208s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller
+[1.269s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.286s] [100%] Built target simple_controller
+[1.526s] running egg_info
+[1.558s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.562s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.566s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.659s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.662s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.684s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg

@@ -1,0 +1,172 @@
+[0.075s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller -- -j8 -l8
+[0.135s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.379s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.414s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.425s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.526s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.529s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.672s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.673s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.708s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.734s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.763s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.978s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.110s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.110s] -- Configured cppcheck include dirs: /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/include
+[1.110s] -- Configured cppcheck exclude dirs and/or files: 
+[1.113s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.113s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.118s] -- Added test 'lint_cmake' to check CMake code style
+[1.122s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.142s] -- Added test 'uncrustify' to check C / C++ code style
+[1.142s] -- Configured uncrustify additional arguments: 
+[1.146s] -- Added test 'xmllint' to check XML markup files
+[1.160s] -- Configuring done (1.0s)
+[1.362s] -- Generating done (0.2s)
+[1.439s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller
+[1.496s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[1.508s] [ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.519s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.793s] running egg_info
+[1.830s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.834s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.837s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.938s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.941s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.966s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[3.590s] In file included from [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:1[m[K:
+[3.590s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/noisy_controller.hpp:[m[K In constructor ‘[01m[KNoisyController::[01;32m[KNoisyController[m[K(const std::string&)[m[K’:
+[3.590s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/noisy_controller.hpp:27:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KNoisyController::left_wheel_prev_pos_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.590s]    27 |     double [01;35m[Kleft_wheel_prev_pos_[m[K;
+[3.590s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.590s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/noisy_controller.hpp:26:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble NoisyController::right_wheel_prev_pos_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.590s]    26 |     double [01;35m[Kright_wheel_prev_pos_[m[K;
+[3.590s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.590s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.591s]     9 | [01;35m[KNoisyController[m[K::NoisyController(const std::string& name)
+[3.591s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.847s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[3.847s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:10:37:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Kleft_wheel_prev_pos_[m[K’
+[3.847s]    10 |                                   , [01;31m[Kleft_wheel_prev_pos_[m[K(0.0)
+[3.847s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.847s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:11:37:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Kright_wheel_prev_pos_[m[K’
+[3.847s]    11 |                                   , [01;31m[Kright_wheel_prev_pos_[m[K(0.0)
+[3.847s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.847s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:12:37:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Kx_[m[K’
+[3.847s]    12 |                                   , [01;31m[Kx_[m[K(0.0)
+[3.847s]       |                                     [01;31m[K^~[m[K
+[3.848s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:13:37:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Ky_[m[K’
+[3.848s]    13 |                                   , [01;31m[Ky_[m[K(0.0)
+[3.848s]       |                                     [01;31m[K^~[m[K
+[3.848s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:14:37:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Ktheta_[m[K’
+[3.848s]    14 |                                   , [01;31m[Ktheta_[m[K(0.0)
+[3.848s]       |                                     [01;31m[K^~~~~~[m[K
+[3.863s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_sub_[m[K’ was not declared in this scope
+[3.863s]    24 |     [01;31m[Kjoint_sub_[m[K = create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));
+[3.863s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.871s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:24:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[3.871s]    24 |     joint_sub_ = create_subscription<[01;31m[Ksensor_msgs[m[K::msg::JointState>("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));
+[3.871s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[3.871s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:24:18:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.871s]    24 |     joint_sub_ = [01;31m[Kcreate_subscription<sensor_msgs::msg::JointState>[m[K("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));
+[3.871s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.871s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:24:118:[m[K [01;31m[Kerror: [m[K‘[01m[KjointCallback[m[K’ is not a member of ‘[01m[KSimpleController[m[K’
+[3.871s]    24 | intState>("/joint_states", 10, std::bind(&SimpleController::[01;31m[KjointCallback[m[K, this, _1));
+[3.871s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.871s] 
+[3.878s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub_[m[K’ was not declared in this scope
+[3.878s]    25 |     [01;31m[Kodom_pub_[m[K = create_publisher<nav_msgs::msg::Odometry>("/bumperbot_controller/odom", 10);
+[3.878s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.885s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:25:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[3.885s]    25 |     odom_pub_ = create_publisher<[01;31m[Knav_msgs[m[K::msg::Odometry>("/bumperbot_controller/odom", 10);
+[3.885s]       |                                  [01;31m[K^~~~~~~~[m[K
+[3.885s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:25:17:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.885s]    25 |     odom_pub_ = [01;31m[Kcreate_publisher<nav_msgs::msg::Odometry>[m[K("/bumperbot_controller/odom", 10);
+[3.885s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.885s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:25:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleController::create_publisher<<expression error> >(const char [27], int)[m[K’
+[3.885s]    25 |     odom_pub_ = [01;31m[Kcreate_publisher<nav_msgs::msg::Odometry>("/bumperbot_controller/odom", 10)[m[K;
+[3.885s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.885s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[3.885s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.885s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.885s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.886s]                  from [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:4[m[K,
+[3.886s]                  from [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[3.886s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.886s]    73 | [01;36m[KNode[m[K::create_publisher(
+[3.886s]       | [01;36m[K^~~~[m[K
+[3.886s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.886s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:25:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.886s]    25 |     odom_pub_ = [01;31m[Kcreate_publisher<nav_msgs::msg::Odometry>("/bumperbot_controller/odom", 10)[m[K;
+[3.886s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.893s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_msg_[m[K’ was not declared in this scope
+[3.893s]    30 |     [01;31m[Kodom_msg_[m[K.header.frame_id = "odom";
+[3.893s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.906s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_broadcaster_[m[K’ was not declared in this scope
+[3.907s]    37 |     [01;31m[Ktransform_broadcaster_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+[3.907s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ was not declared in this scope
+[3.913s]    37 |     transform_broadcaster_ = std::make_unique<[01;31m[Ktf2_ros[m[K::TransformBroadcaster>(*this);
+[3.913s]       |                                               [01;31m[K^~~~~~~[m[K
+[3.913s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.913s]    37 |     transform_broadcaster_ = std::[01;31m[Kmake_unique<tf2_ros::TransformBroadcaster>[m[K(*this);
+[3.913s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(SimpleController&)[m[K’
+[3.913s]    37 | _broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[3.913s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.913s] 
+[3.914s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[3.914s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[3.914s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[3.914s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[3.914s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.914s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.914s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.914s]    37 | _broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[3.914s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.914s] 
+[3.914s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[3.914s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[3.914s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.914s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.914s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.914s]    37 | _broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[3.914s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.915s] 
+[3.915s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[3.915s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[3.915s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.915s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.915s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.915s]    37 | _broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[3.915s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.915s] 
+[3.925s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_stamped_[m[K’ was not declared in this scope
+[3.925s]    38 |     [01;31m[Ktransform_stamped_[m[K.header.frame_id = "odom";
+[3.925s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.932s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_time_[m[K’ was not declared in this scope
+[3.932s]    41 |     [01;31m[Kprev_time_[m[K = get_clock()->now();
+[3.932s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.957s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K At global scope:
+[3.957s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:58:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[3.957s]    58 | void SimpleController::jointCallback(const [01;31m[Ksensor_msgs[m[K::msg::JointState &state)
+[3.957s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[3.957s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:58:60:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[3.957s]    58 | void SimpleController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &state)
+[3.958s]       |                                                            [01;31m[K^~[m[K
+[3.958s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:58:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[3.958s]    58 | void SimpleController::jointCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJointState &state)
+[3.958s]       |                                     [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[3.958s]       |                                                            [32m[K)[m[K
+[3.958s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:58:60:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[3.958s]    58 | void SimpleController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &state)
+[3.958s]       |                                                            [01;31m[K^~[m[K
+[5.997s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[5.997s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[5.997s] gmake[1]: *** Waiting for unfinished jobs....
+[9.067s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[9.514s] [ 75%] Built target noisy_controller
+[9.515s] gmake: *** [Makefile:146: all] Error 2

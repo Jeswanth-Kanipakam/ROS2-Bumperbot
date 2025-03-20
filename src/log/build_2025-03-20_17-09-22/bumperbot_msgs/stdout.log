@@ -1,0 +1,23 @@
+[  2%] Built target bumperbot_msgs__rosidl_generator_type_description
+[  4%] Built target bumperbot_msgs__cpp
+[ 22%] Built target bumperbot_msgs__rosidl_generator_c
+[ 31%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[ 59%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[ 72%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[ 75%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[ 75%] Built target bumperbot_msgs__rosidl_typesupport_c
+[ 77%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target bumperbot_msgs
+[ 77%] Built target ament_cmake_python_copy_bumperbot_msgs
+[ 79%] Built target bumperbot_msgs__py
+[ 86%] Built target bumperbot_msgs__rosidl_generator_py
+[ 95%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[ 95%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c
+[100%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+running egg_info
+writing bumperbot_msgs.egg-info/PKG-INFO
+writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_bumperbot_msgs_egg

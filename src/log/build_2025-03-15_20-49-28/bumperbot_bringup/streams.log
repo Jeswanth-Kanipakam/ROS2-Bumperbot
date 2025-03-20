@@ -1,0 +1,32 @@
+[1.470s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_bringup build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/install.log --single-version-externally-managed install_data
+[1.843s] running egg_info
+[1.844s] creating ../build/bumperbot_bringup/bumperbot_bringup.egg-info
+[1.877s] writing ../build/bumperbot_bringup/bumperbot_bringup.egg-info/PKG-INFO
+[1.881s] writing dependency_links to ../build/bumperbot_bringup/bumperbot_bringup.egg-info/dependency_links.txt
+[1.884s] writing requirements to ../build/bumperbot_bringup/bumperbot_bringup.egg-info/requires.txt
+[1.886s] writing top-level names to ../build/bumperbot_bringup/bumperbot_bringup.egg-info/top_level.txt
+[1.888s] writing manifest file '../build/bumperbot_bringup/bumperbot_bringup.egg-info/SOURCES.txt'
+[1.958s] reading manifest file '../build/bumperbot_bringup/bumperbot_bringup.egg-info/SOURCES.txt'
+[1.962s] writing manifest file '../build/bumperbot_bringup/bumperbot_bringup.egg-info/SOURCES.txt'
+[1.964s] running build
+[1.964s] running build_py
+[1.965s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build
+[1.966s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib
+[1.967s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib/bumperbot_bringup
+[1.968s] copying bumperbot_bringup/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib/bumperbot_bringup
+[1.971s] running install
+[1.977s] running install_lib
+[2.012s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup
+[2.014s] copying /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build/lib/bumperbot_bringup/__init__.py -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup
+[2.019s] byte-compiling /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup/__init__.py to __init__.cpython-312.pyc
+[2.023s] running install_data
+[2.025s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index
+[2.025s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index/resource_index
+[2.025s] creating /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index/resource_index/packages
+[2.027s] copying resource/bumperbot_bringup -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/ament_index/resource_index/packages
+[2.030s] copying package.xml -> /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/share/bumperbot_bringup
+[2.033s] running install_egg_info
+[2.068s] Copying ../build/bumperbot_bringup/bumperbot_bringup.egg-info to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages/bumperbot_bringup-0.0.0-py3.12.egg-info
+[2.098s] running install_scripts
+[2.307s] writing list of installed files to '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/install.log'
+[2.337s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_bringup build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bumperbot_msgs__py",
+		"source" : "/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs/bumperbot_msgs__py"
+	}
+}
