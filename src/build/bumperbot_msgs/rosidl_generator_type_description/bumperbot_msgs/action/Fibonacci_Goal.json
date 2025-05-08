@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "bumperbot_msgs/action/Fibonacci_Goal",
+      "fields": [
+        {
+          "name": "order",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "bumperbot_msgs/action/Fibonacci_Goal",
+      "hash_string": "RIHS01_e308f0468ad2b891723e6bbaa248198212223f260dd7b23e5d3c80779c5c5511"
+    }
+  ]
+}

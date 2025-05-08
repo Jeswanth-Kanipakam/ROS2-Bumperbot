@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "bumperbot_msgs/srv/GetTransform_Request",
+      "fields": [
+        {
+          "name": "frame_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "child_frame_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "bumperbot_msgs/srv/GetTransform_Request",
+      "hash_string": "RIHS01_cf061d4f175aee2ced1cebc06f3f501f1371fbec15c5c5fac5d4ed9a1b1fad72"
+    }
+  ]
+}

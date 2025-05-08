@@ -1,0 +1,33 @@
+[0.182s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils -- -j8 -l8
+[0.788s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.788s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.788s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.788s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.788s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.789s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.789s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.856s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.888s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.934s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.934s]   By not providing "Findtwist_mux_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.934s]   project has asked CMake to find a package configuration file provided by
+[0.934s]   "twist_mux_msgs", but CMake did not find one.
+[0.934s] 
+[0.934s]   Could not find a package configuration file provided by "twist_mux_msgs"
+[0.934s]   with any of the following names:
+[0.934s] 
+[0.934s]     twist_mux_msgsConfig.cmake
+[0.934s]     twist_mux_msgs-config.cmake
+[0.934s] 
+[0.934s]   Add the installation prefix of "twist_mux_msgs" to CMAKE_PREFIX_PATH or set
+[0.934s]   "twist_mux_msgs_DIR" to a directory containing one of the above files.  If
+[0.934s]   "twist_mux_msgs" provides a separate development package or SDK, be sure it
+[0.934s]   has been installed.
+[0.935s] 
+[0.935s] [0m
+[0.935s] -- Configuring incomplete, errors occurred!
+[0.950s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.954s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils -- -j8 -l8
