@@ -1,4 +1,4 @@
-# Robot Localization, Mapping, and Control
+# Robot Odometry, Localization, Mapping and Control
 
 This project involves various topics related to mobile robotics, focusing on localization, mapping, sensor fusion, and control. The work involves creating a robot system capable of understanding its environment, avoiding obstacles, and navigating autonomously using a variety of sensors, including LiDAR.
 
