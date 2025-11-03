@@ -77,7 +77,7 @@ To prepare your PC you need:
 ## To launch the ROS 2 Simulated robot:
 
 ```bash
-ros2 launch arduinobot_bringup simulated_robot.launch.py
+ros2 launch bumperbot_bringup simulated_robot.launch.py
    ```
 ## Contact
  
