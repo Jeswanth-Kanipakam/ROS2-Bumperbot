@@ -1,6 +1,9 @@
 # Robot Odometry, Localization, Mapping and Control
 
-This project involves various topics related to mobile robotics, focusing on localization, mapping, sensor fusion, and control. The work involves creating a robot system capable of understanding its environment, avoiding obstacles, and navigating autonomously using a variety of sensors, including LiDAR.
+This project involves various topics related to mobile robotics, focusing on localization, mapping, sensor fusion and control. The work involves creat
+ing a robot system capable of understanding its environment, avoiding obstacles and navigating autonomously using a variety of sensors, including LiDAR.
+
+<img width="740" height="890" alt="BumperBot" src="https://github.com/user-attachments/assets/4f57112c-82f2-4b11-bb2e-5649bc04208e" />
 
 ## Techniques used:
 
