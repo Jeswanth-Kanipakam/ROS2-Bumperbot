@@ -92,45 +92,45 @@ src/
 |   ├── models/
 |   ├── worlds/
 │
-├── bumperbot_controller/      # Robot control configuration
+├── bumperbot_controller/          # Robot control configuration
 |   ├── bumperbot_controller/
-|       ├── noisy_controller.py
-|       ├── simple_controller.py
-|       ├── twist_relay.py
-│   ├── config/                # Controller parameters
-│   └── launch/                # Control launch files
+|       ├── noisy_controller.py    # Computes and publishes noisy odometry and TF from joint states.
+|       ├── simple_controller.py   # Converts cmd_vel to wheel commands and publishes odometry from joints.
+|       ├── twist_relay.py         # Stamps controller twist messages; unstamps joystick twist messages.
+│   ├── config/                    # Controller parameters
+│   └── launch/                    # Control launch files
 │
 ├── bumperbot_firmware/ 
 |   ├── bumperbot_firmware/
-|       ├── mpu6050_driver.py
-|       ├── simple_serial_receiver.py
-|       ├── simple_serial_transmitter.py
+|       ├── mpu6050_driver.py                # ROS 2 node publishing MPU6050 IMU data read from I2C.
+|       ├── simple_serial_receiver.py        # Reads serial port data and publishes it to a ROS 2 topic.
+|       ├── simple_serial_transmitter.py     # Subscribes to ROS 2 topic, writes received strings to serial.
 │   ├── config/                
 │   └── launch/                
 │
 ├── bumperbot_localization/ 
 |   ├── bumperbot_localization/
-|       ├── imu_republisher.py
-|       ├── kalman_filter.py
-|       ├── odometry_motion_model.py
+|       ├── imu_republisher.py          # Subscribes to IMU, changes frame_id and republishes it.
+|       ├── kalman_filter.py            # Fuses noisy odometry and IMU angular velocity using Kalman filter.
+|       ├── odometry_motion_model.py    # Probabilistic odometry motion model updating a set of particles.
 │   ├── config/                
 │   └── launch/  
 │   └── rviz/ 
 |
 ├── bumperbot_mapping/ 
 |   ├── bumperbot_mapping
-|       ├── mapping_with_known_poses.py
+|       ├── mapping_with_known_poses.py        # Builds an occupancy grid map using laser scans and TF poses.
 │   ├── config/                
 │   └── launch/  
 │   └── rviz/ 
 │   └── maps/ 
 |
-├── bumperbot_msgs/           # Custom ROS 2 interfaces
+├── bumperbot_msgs/            # Custom ROS 2 interfaces
 │   ├── msg/                   # Custom messages
 │   ├── srv/                   # Custom services
 │   └── action/                # Custom actions
 │
-├── bumperbot_py_examples/    # Python examples and tutorials
+├── bumperbot_py_examples/     # Python examples and tutorials
 │   └── bumperbot_py_examples/
 │       ├── simple_publisher.py
 │       ├── simple_subscriber.py
@@ -143,10 +143,10 @@ src/
 │       ├── simple_qos_publisher.py
 │       ├── simple_qos_subscriber.py
 │
-├── bumperbot_cpp_examples/   # C++ examples and tutorials
+├── bumperbot_cpp_examples/    # C++ examples and tutorials
 │   └── src/                   # C++ source files
 │
-├── bumperbot_utils/          # Utility functions and tools
+├── bumperbot_utils/           # Utility functions and tools
 │   └── bumperbotbot_utils/
 │       └── safety_stop.py
 ```
