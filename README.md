@@ -207,6 +207,26 @@ This setup simulates a laser scan of objects in Gazebo and visualizes the result
 
 Using this launch file, we can load various artificial environments that simulate the real world, such as a 'small_house' or 'small_warehouse', simply by changing the world_name argument.
 
+### 5. Safety stop
+
+```bash
+terminal 1: ros2 launch bumperbot_bringup simulated_robot.launch.py
+
+terminal 2: ros2 run bumperbot_utils safety_stop.py
+
+terminal 3:  rviz2
+```
+
+![Screenshot from 2025-11-09 19-53-16](https://github.com/user-attachments/assets/357eac24-2d7d-405a-aaf7-ff51f58a5241)
+
+![Screenshot from 2025-11-09 19-52-16](https://github.com/user-attachments/assets/ca760d5a-4f3b-4b94-9697-ab40d81d3641)
+
+![Screenshot from 2025-11-09 19-54-32](https://github.com/user-attachments/assets/7034ce4c-6364-48b4-b5e8-61e2a7bbd144)
+
+Zones: 
+    1. Danger Zone (Red): 20cm from the robot.
+    2. warning distance(Yellow): 60cm from the robot.
+
 ### 5. Running SLAM for Mapping (Graph based SLAM Algorithm)
 
 ```bash
