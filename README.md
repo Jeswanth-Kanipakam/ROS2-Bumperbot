@@ -74,6 +74,82 @@ To prepare your PC you need:
     python3-pip
     pip install pyserial
     ```
+## Package Structure
+
+```
+src/
+├── bumperbot_bringup/
+|   ├──launch/
+|       ├── real_robot.launch.py
+|       ├── simulated_robot.launch.py
+|
+├── bumperbot_description/     # Robot model and visualization
+│   ├── urdf/                  # Robot URDF/XACRO files
+│   ├── meshes/                # 3D mesh files
+│   ├── launch/                # Launch files for visualization
+│   ├── rviz/                  # RViz configurations
+|   ├── photos/
+|   ├── models/
+|   ├── worlds/
+│
+├── bumperbot_controller/      # Robot control configuration
+|   ├── bumperbot_controller/
+|       ├── noisy_controller.py
+|       ├── simple_controller.py
+|       ├── twist_relay.py
+│   ├── config/                # Controller parameters
+│   └── launch/                # Control launch files
+│
+├── bumperbot_firmware/ 
+|   ├── bumperbot_firmware/
+|       ├── mpu6050_driver.py
+|       ├── simple_serial_receiver.py
+|       ├── simple_serial_transmitter.py
+│   ├── config/                
+│   └── launch/                
+│
+├── bumperbot_localization/ 
+|   ├── bumperbot_localization/
+|       ├── imu_republisher.py
+|       ├── kalman_filter.py
+|       ├── odometry_motion_model.py
+│   ├── config/                
+│   └── launch/  
+│   └── rviz/ 
+|
+├── bumperbot_mapping/ 
+|   ├── bumperbot_mapping
+|       ├── mapping_with_known_poses.py
+│   ├── config/                
+│   └── launch/  
+│   └── rviz/ 
+│   └── maps/ 
+|
+├── bumperbot_msgs/           # Custom ROS 2 interfaces
+│   ├── msg/                   # Custom messages
+│   ├── srv/                   # Custom services
+│   └── action/                # Custom actions
+│
+├── bumperbot_py_examples/    # Python examples and tutorials
+│   └── bumperbot_py_examples/
+│       ├── simple_publisher.py
+│       ├── simple_subscriber.py
+│       ├── simple_service_server.py
+│       ├── simple_action_server.py
+│       ├── simple_parameter.py
+│       └── simple_moveit_interface.py
+│       ├── simple_action_client.py
+│       ├── simple_lifecycle_node.py
+│       ├── simple_qos_publisher.py
+│       ├── simple_qos_subscriber.py
+│
+├── bumperbot_cpp_examples/   # C++ examples and tutorials
+│   └── src/                   # C++ source files
+│
+├── bumperbot_utils/          # Utility functions and tools
+│   └── bumperbotbot_utils/
+│       └── safety_stop.py
+```
 
 ## Usage
 
