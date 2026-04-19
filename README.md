@@ -162,6 +162,7 @@ Displays the robot model in RViz to enable visual inspection and manual joint ma
 ```
 <img width="2560" height="1440" alt="Screenshot from 2025-11-09 17-12-17" src="https://github.com/user-attachments/assets/0e945d44-7471-49ed-97da-76cc2cc71de6" />
 
+
 <img width="2560" height="1440" alt="Screenshot from 2025-11-09 17-13-16" src="https://github.com/user-attachments/assets/a0dbe87a-bbd5-42bd-a7e6-45fbfbf47dc1" />
 
 What does this show: This command launches your robot's model in the RViz visualizer, simultaneously opening a GUI to manually control its joints and see the movements update in real-time.
@@ -231,6 +232,12 @@ Zones:
 ```bash
 ros2 launch bumperbot_bringup simulated_robot.py world_name:=small_house
 ```
+
+https://github.com/user-attachments/assets/0b024e6d-7e75-4409-8ac4-7ef9c9bc7290
+
+
+https://github.com/user-attachments/assets/2f390f3c-60d0-4096-b304-04247feb32a9
+
 
 <img width="1153" height="813" alt="Screenshot from 2025-11-09 18-19-21" src="https://github.com/user-attachments/assets/0c26d2cc-cfb6-4ef9-b4f3-a3c385b192cd" />
 
