@@ -1,9 +1,0 @@
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/uninstall.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/bumperbot_navigation_uninstall.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/test.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/edit_cache.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/rebuild_cache.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/list_install_components.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/install.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/install/local.dir
-/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_navigation/CMakeFiles/install/strip.dir

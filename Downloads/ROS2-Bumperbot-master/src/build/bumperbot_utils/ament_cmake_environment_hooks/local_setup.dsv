@@ -1,3 +1,0 @@
-source;share/bumperbot_utils/environment/ament_prefix_path.sh
-source;share/bumperbot_utils/environment/path.sh
-source;share/bumperbot_utils/environment/pythonpath.sh
