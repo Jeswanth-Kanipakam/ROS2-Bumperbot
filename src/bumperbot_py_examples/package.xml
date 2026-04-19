@@ -3,9 +3,9 @@
 <package format="3">
   <name>bumperbot_py_examples</name>
   <version>0.0.0</version>
-  <description>ROS 2 Code Examples</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
-  <license>Apache 2.0</license>
+  <description>TODO: Package description</description>
+  <maintainer email="jeswanth.kanipakam@fau.de">ud90uhak</maintainer>
+  <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
