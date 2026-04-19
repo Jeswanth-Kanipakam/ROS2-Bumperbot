@@ -1,0 +1,93 @@
+[0.092s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils
+[0.514s] -- The C compiler identification is GNU 13.3.0
+[0.514s] -- The CXX compiler identification is GNU 13.3.0
+[0.522s] -- Detecting C compiler ABI info
+[0.722s] -- Detecting C compiler ABI info - done
+[0.733s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.733s] -- Detecting C compile features
+[0.733s] -- Detecting C compile features - done
+[0.752s] -- Detecting CXX compiler ABI info
+[0.981s] -- Detecting CXX compiler ABI info - done
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.997s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[1.017s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.184s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.390s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.396s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.483s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.510s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.709s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.718s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.820s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.852s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.871s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.987s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.032s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.063s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/jazzy/share/twist_mux_msgs/cmake)
+[2.141s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.163s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.336s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.525s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.526s] -- Configured cppcheck include dirs: 
+[2.526s] -- Configured cppcheck exclude dirs and/or files: 
+[2.530s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.531s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.536s] -- Added test 'lint_cmake' to check CMake code style
+[2.541s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.553s] -- Added test 'uncrustify' to check C / C++ code style
+[2.553s] -- Configured uncrustify additional arguments: 
+[2.557s] -- Added test 'xmllint' to check XML markup files
+[2.586s] -- Configuring done (2.5s)
+[2.788s] -- Generating done (0.2s)
+[2.866s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils
+[2.877s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils
+[2.878s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils -- -j8 -l8
+[2.956s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o[0m
+[2.971s] [ 50%] Built target ament_cmake_python_copy_bumperbot_utils
+[3.272s] running egg_info
+[3.274s] creating bumperbot_utils.egg-info
+[3.311s] writing bumperbot_utils.egg-info/PKG-INFO
+[3.313s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[3.316s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[3.318s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[3.427s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[3.431s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[3.461s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[13.219s] [100%] [32m[1mLinking CXX executable safety_stop[0m
+[14.102s] [100%] Built target safety_stop
+[14.187s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils -- -j8 -l8
+[14.190s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils
+[14.205s] -- Install configuration: ""
+[14.206s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[14.214s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[14.222s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[14.224s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[14.232s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[14.239s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[14.246s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[14.253s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[14.254s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[14.255s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[14.293s] Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[14.299s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[14.407s] -- Set non-toolchain portion of runtime path of "/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/bumperbot_utils/safety_stop" to ""
+[14.454s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[14.456s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[14.465s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[14.473s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[14.476s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[14.484s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[14.486s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[14.494s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[14.503s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[14.513s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[14.523s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[14.532s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[14.541s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[14.548s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[14.557s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[14.565s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[14.569s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils

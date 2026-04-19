@@ -1,0 +1,13 @@
+[0.083s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion -- -j8 -l8
+[0.700s] [  0%] Built target ament_cmake_python_copy_bumperbot_motion
+[0.701s] [ 25%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+[0.701s] [ 75%] Built target pure_pursuit
+[0.701s] running egg_info
+[0.701s] writing bumperbot_motion.egg-info/PKG-INFO
+[0.701s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[0.701s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[0.734s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[0.738s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[0.773s] [ 75%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[5.721s] [100%] [32m[1mLinking CXX shared library libpd_motion_planner.so[0m
+[6.091s] [100%] Built target pd_motion_planner

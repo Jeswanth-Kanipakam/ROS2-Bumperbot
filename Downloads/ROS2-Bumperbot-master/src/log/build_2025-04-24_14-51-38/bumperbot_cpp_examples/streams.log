@@ -1,0 +1,33 @@
+[0.038s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_cpp_examples -- -j8 -l8
+[0.166s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.381s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.414s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.424s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.654s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.668s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.743s] -- Found bumperbot_msgs: 0.0.0 (/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[0.870s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[0.875s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.959s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.168s] -- Configuring done (1.1s)
+[1.830s] -- Generating done (0.6s)
+[1.985s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_cpp_examples
+[2.079s] [ 12%] Built target simple_parameter
+[2.086s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[2.095s] [ 31%] Built target simple_turtlesim_kinematics
+[2.100s] [ 43%] Built target simple_publisher
+[2.106s] [ 75%] Built target simple_lifecycle_node
+[2.106s] [ 75%] Built target simple_subscriber
+[2.106s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[2.110s] [ 81%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[5.268s] [ 93%] [32m[1mLinking CXX executable simple_service_server[0m
+[5.268s] [ 93%] [32m[1mLinking CXX executable simple_service_client[0m
+[5.517s] [ 93%] Built target simple_service_client
+[5.518s] [ 93%] Built target simple_service_server
+[7.197s] [100%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[7.519s] [100%] Built target simple_tf_kinematics

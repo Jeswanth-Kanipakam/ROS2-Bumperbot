@@ -1,0 +1,56 @@
+[0.077s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping -- -j8 -l8
+[0.178s] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.486s] running egg_info
+[0.524s] writing bumperbot_mapping.egg-info/PKG-INFO
+[0.528s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[0.533s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[0.640s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.643s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.669s] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[0.680s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping -- -j8 -l8
+[0.684s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping
+[0.738s] -- Install configuration: ""
+[0.738s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[0.738s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[0.738s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+[0.738s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[0.738s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[0.738s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.738s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.738s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+[0.739s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[0.740s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[0.770s] Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[0.777s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/include/include
+[0.777s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/include/include/bumperbot_mapping
+[0.779s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[0.781s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/config
+[0.783s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[0.784s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[0.787s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[0.787s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[0.789s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[0.790s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map(1).pgm
+[0.790s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[0.792s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[0.793s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map(1).pgm
+[0.794s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[0.795s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[0.796s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[0.797s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[0.799s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[0.800s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[0.800s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[0.801s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[0.802s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[0.803s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[0.803s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[0.804s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[0.804s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[0.805s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[0.806s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[0.812s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[0.813s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[0.814s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[0.815s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[0.819s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping

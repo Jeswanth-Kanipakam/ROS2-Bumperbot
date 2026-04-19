@@ -1,0 +1,20 @@
+[0.076s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware -- -j8 -l8
+[0.190s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[0.215s] [ 50%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.688s] running egg_info
+[0.689s] creating bumperbot_firmware.egg-info
+[0.757s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.761s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.765s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.767s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.957s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.960s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.003s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[5.784s] [ 66%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[6.023s] [ 66%] Built target simple_serial_receiver
+[6.448s] [ 83%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[6.739s] [ 83%] Built target bumperbot_firmware
+[8.766s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[9.154s] [100%] Built target simple_serial_transmitter

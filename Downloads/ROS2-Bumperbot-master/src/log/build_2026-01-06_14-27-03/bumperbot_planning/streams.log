@@ -1,0 +1,58 @@
+[0.090s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning -- -j8 -l8
+[0.226s] [100%] Built target dijkstra_planner
+[0.227s] [100%] Built target a_star_planner
+[0.230s] [100%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.594s] running egg_info
+[0.634s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.637s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.640s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[0.757s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.761s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.822s] [100%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[0.828s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning -- -j8 -l8
+[0.830s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning
+[0.907s] -- Install configuration: ""
+[0.907s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[0.907s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[0.907s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info
+[0.907s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/top_level.txt
+[0.907s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/PKG-INFO
+[0.907s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.907s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.907s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning
+[0.908s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py
+[0.908s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py
+[0.908s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py
+[0.927s] Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning'...
+[0.933s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[0.938s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/libdijkstra_planner.so
+[0.945s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/liba_star_planner.so
+[0.950s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include
+[0.952s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include/bumperbot_planning
+[0.953s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[0.954s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[0.954s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[0.955s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[0.956s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[0.956s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+[0.958s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
+[0.959s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[0.960s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[0.960s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[0.961s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[0.962s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[0.962s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[0.963s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[0.964s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[0.965s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[0.965s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[0.966s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[0.972s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[0.973s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
+[0.973s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.975s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[0.975s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.976s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[0.977s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[0.978s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[1.331s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning

@@ -1,0 +1,60 @@
+[0.071s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization -- -j8 -l8
+[0.161s] [ 66%] Built target kalman_filter
+[0.161s] [ 66%] Built target odometry_motion_model
+[0.168s] [100%] Built target imu_republisher
+[0.177s] [100%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.484s] running egg_info
+[0.522s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.526s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.529s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.643s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.645s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.677s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[0.808s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization -- -j8 -l8
+[0.810s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization
+[0.822s] -- Install configuration: ""
+[0.823s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[0.824s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[0.830s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[0.831s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[0.832s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[0.838s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.845s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.850s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[0.851s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[0.852s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[0.853s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[0.855s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[0.889s] Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[0.896s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/include/include
+[0.898s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/include/include/bumperbot_localization
+[0.899s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[0.900s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[0.905s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/bin/odometry_motion_model
+[0.918s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[0.924s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[0.935s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[0.940s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/launch
+[0.942s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[0.943s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[0.945s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/config
+[0.947s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[0.947s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[0.947s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[0.948s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[0.950s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[0.951s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[0.951s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[0.952s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[0.953s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[0.954s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[0.955s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[0.956s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[0.956s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[0.957s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[0.958s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[0.963s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[0.964s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[0.965s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[0.967s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[1.062s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization

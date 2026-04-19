@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (bumperbot_controller) JobQueued: {'identifier': 'bumperbot_controller', 'dependencies': OrderedDict()}
+[0.000126] (bumperbot_description) JobQueued: {'identifier': 'bumperbot_description', 'dependencies': OrderedDict()}
+[0.000143] (bumperbot_firmware) JobQueued: {'identifier': 'bumperbot_firmware', 'dependencies': OrderedDict()}
+[0.000157] (bumperbot_localization) JobQueued: {'identifier': 'bumperbot_localization', 'dependencies': OrderedDict()}
+[0.000169] (bumperbot_mapping) JobQueued: {'identifier': 'bumperbot_mapping', 'dependencies': OrderedDict()}
+[0.000181] (bumperbot_motion) JobQueued: {'identifier': 'bumperbot_motion', 'dependencies': OrderedDict()}
+[0.000192] (bumperbot_msgs) JobQueued: {'identifier': 'bumperbot_msgs', 'dependencies': OrderedDict()}
+[0.000203] (bumperbot_planning) JobQueued: {'identifier': 'bumperbot_planning', 'dependencies': OrderedDict()}
+[0.000213] (bumperbot_utils) JobQueued: {'identifier': 'bumperbot_utils', 'dependencies': OrderedDict()}
+[0.000223] (bumperbot_bringup) JobQueued: {'identifier': 'bumperbot_bringup', 'dependencies': OrderedDict({'bumperbot_controller': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_controller', 'bumperbot_description': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_description', 'bumperbot_firmware': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware', 'bumperbot_localization': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization', 'bumperbot_mapping': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping'})}
+[0.000250] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict({'bumperbot_msgs': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs'})}
+[0.000264] (bumperbot_navigation) JobQueued: {'identifier': 'bumperbot_navigation', 'dependencies': OrderedDict({'bumperbot_planning': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning'})}
+[0.000277] (bumperbot_py_examples) JobQueued: {'identifier': 'bumperbot_py_examples', 'dependencies': OrderedDict({'bumperbot_msgs': '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs'})}
+[0.000290] (bumperbot_msgs) JobStarted: {'identifier': 'bumperbot_msgs'}
+[0.008790] (bumperbot_controller) JobStarted: {'identifier': 'bumperbot_controller'}
+[0.016031] (bumperbot_description) JobStarted: {'identifier': 'bumperbot_description'}
+[0.023038] (bumperbot_firmware) JobStarted: {'identifier': 'bumperbot_firmware'}
+[0.029470] (bumperbot_localization) JobStarted: {'identifier': 'bumperbot_localization'}
+[0.036229] (bumperbot_mapping) JobStarted: {'identifier': 'bumperbot_mapping'}
+[0.042344] (bumperbot_planning) JobStarted: {'identifier': 'bumperbot_planning'}
+[0.049267] (bumperbot_motion) JobStarted: {'identifier': 'bumperbot_motion'}
+[0.058512] (bumperbot_msgs) JobProgress: {'identifier': 'bumperbot_msgs', 'progress': 'cmake'}
+[0.068460] (bumperbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.073320] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'cmake'}
+[0.080261] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_controller', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_controller'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.084625] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'cmake'}
+[0.091367] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_description', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_description'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_description', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.095767] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'cmake'}
+[0.099440] (-) TimerEvent: {}
+[0.102154] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_firmware', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.106689] (bumperbot_localization) JobProgress: {'identifier': 'bumperbot_localization', 'progress': 'cmake'}
+[0.113636] (bumperbot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_localization', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_localization'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.118814] (bumperbot_mapping) JobProgress: {'identifier': 'bumperbot_mapping', 'progress': 'cmake'}
+[0.125342] (bumperbot_mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_mapping', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.130156] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'cmake'}
+[0.136359] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_planning', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.141621] (bumperbot_motion) JobProgress: {'identifier': 'bumperbot_motion', 'progress': 'cmake'}
+[0.150760] (bumperbot_motion) Command: {'cmd': ['/usr/bin/cmake', '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion', '-DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion'], 'cwd': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion', 'env': OrderedDict({'LANGUAGE': 'en_US:', 'USER': 'ud90uhak', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LAMMPS_POTENTIALS': 'share/lammps/potentials', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eeiww/ud90uhak', 'OLDPWD': '/home/eeiww/ud90uhak', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'LM_PROJECT': 'iwe0', 'SYSTEMD_EXEC_PID': '212873', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/439630/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ud90uhak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-439630.slice/user@439630.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ud90uhak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cip115-42:@/tmp/.ICE-unix/212857,unix/cip115-42:/tmp/.ICE-unix/212857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c43b639a_c9c6_466a_8fd2_f1885757f7f0', 'XDG_RUNTIME_DIR': '/run/user/439630', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/439630/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/439630/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_439630', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/439630/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MSI2LMP_LIBRARY': 'share/lammps/frc_files', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'LS_OPTIONS': '-N --color=tty -T 0', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.176412] (bumperbot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.181947] (bumperbot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.191911] (bumperbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.194968] (bumperbot_firmware) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199530] (-) TimerEvent: {}
+[0.208614] (bumperbot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.223437] (bumperbot_mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.261146] (bumperbot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.267774] (bumperbot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.275189] (bumperbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.281838] (bumperbot_firmware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.285612] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.286731] (bumperbot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.291596] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299176] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299557] (-) TimerEvent: {}
+[0.305987] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.306767] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.307676] (bumperbot_mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.328916] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399648] (-) TimerEvent: {}
+[0.489948] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.495069] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.497502] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499736] (-) TimerEvent: {}
+[0.500046] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500430] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500645] (bumperbot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.501003] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.501194] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.505854] (bumperbot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.506069] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.506613] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.507656] (bumperbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.508023] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.508188] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.510823] (bumperbot_firmware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.511017] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.511159] (bumperbot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.511304] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.511754] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.511851] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.518383] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.522027] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.522784] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.524485] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.526710] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.527572] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.532374] (bumperbot_mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.532613] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.533185] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.550066] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599825] (-) TimerEvent: {}
+[0.700051] (-) TimerEvent: {}
+[0.726773] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.728075] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.728386] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.730807] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.737436] (bumperbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.737620] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.738130] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.738213] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.741320] (bumperbot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.741564] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.742294] (bumperbot_firmware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.742476] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.742560] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.742860] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.743739] (bumperbot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.743956] (bumperbot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.744080] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.744366] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.744506] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.744579] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.753136] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.761331] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.763851] (bumperbot_mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.764072] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.764203] (bumperbot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.764485] (bumperbot_mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.764729] (bumperbot_firmware) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.766287] (bumperbot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.767037] (bumperbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.782614] (bumperbot_mapping) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.802580] (-) TimerEvent: {}
+[0.902788] (-) TimerEvent: {}
+[0.914155] (bumperbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.916038] (bumperbot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.919094] (bumperbot_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.923586] (bumperbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.924440] (bumperbot_firmware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.940454] (bumperbot_mapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.002907] (-) TimerEvent: {}
+[1.103162] (-) TimerEvent: {}
+[1.116283] (bumperbot_description) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[1.117547] (bumperbot_localization) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.118874] (bumperbot_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.119564] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.121861] (bumperbot_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.132062] (bumperbot_mapping) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.190466] (bumperbot_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.203281] (-) TimerEvent: {}
+[1.204260] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.204457] (bumperbot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.205119] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.205204] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.211333] (bumperbot_mapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.221908] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.233693] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.233837] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.234529] (bumperbot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.234619] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.237827] (bumperbot_mapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.267561] (bumperbot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.267756] (bumperbot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.268388] (bumperbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.268495] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.269504] (bumperbot_mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301154] (bumperbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301594] (bumperbot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302213] (bumperbot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302294] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302368] (bumperbot_mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303384] (-) TimerEvent: {}
+[1.373975] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.403478] (-) TimerEvent: {}
+[1.406758] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.408080] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.433994] (bumperbot_mapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.434160] (bumperbot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.434239] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.434706] (bumperbot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.442320] (bumperbot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.442440] (bumperbot_mapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.442520] (bumperbot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.443019] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503563] (-) TimerEvent: {}
+[1.544560] (bumperbot_mapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.544861] (bumperbot_localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.545497] (bumperbot_firmware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.545586] (bumperbot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.569587] (bumperbot_mapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.570713] (bumperbot_localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.571125] (bumperbot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.571494] (bumperbot_firmware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.592401] (bumperbot_mapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.593681] (bumperbot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.593996] (bumperbot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.594651] (bumperbot_firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.603623] (-) TimerEvent: {}
+[1.703860] (-) TimerEvent: {}
+[1.706868] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.707074] (bumperbot_mapping) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.707730] (bumperbot_localization) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.707801] (bumperbot_controller) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.713507] (bumperbot_firmware) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.713998] (bumperbot_mapping) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.714329] (bumperbot_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.714481] (bumperbot_localization) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.733899] (bumperbot_firmware) StdoutLine: {'line': b'-- Found hardware_interface: 4.27.0 (/opt/ros/jazzy/share/hardware_interface/cmake)\n'}
+[1.759059] (bumperbot_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.792003] (bumperbot_mapping) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.792319] (bumperbot_controller) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.795102] (bumperbot_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.803927] (-) TimerEvent: {}
+[1.826725] (bumperbot_mapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.826907] (bumperbot_controller) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.827600] (bumperbot_localization) StdoutLine: {'line': b'-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.904006] (-) TimerEvent: {}
+[2.004253] (-) TimerEvent: {}
+[2.096748] (bumperbot_localization) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.104331] (-) TimerEvent: {}
+[2.146207] (bumperbot_mapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.204410] (-) TimerEvent: {}
+[2.289166] (bumperbot_controller) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.297339] (bumperbot_firmware) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[2.298015] (bumperbot_firmware) StdoutLine: {'line': b"-- Checking for module 'libserial'\n"}
+[2.304486] (-) TimerEvent: {}
+[2.309913] (bumperbot_firmware) StdoutLine: {'line': b'--   Found libserial, version 1.0.0\n'}
+[2.317551] (bumperbot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (add_executable):\n'}
+[2.317703] (bumperbot_controller) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.318116] (bumperbot_controller) StderrLine: {'line': b'\n'}
+[2.318608] (bumperbot_controller) StderrLine: {'line': b'    src/twist_relay.cpp\n'}
+[2.319108] (bumperbot_controller) StderrLine: {'line': b'\n'}
+[2.319458] (bumperbot_controller) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.319571] (bumperbot_controller) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.320504] (bumperbot_controller) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.321006] (bumperbot_controller) StderrLine: {'line': b'\n'}
+[2.321498] (bumperbot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.321602] (bumperbot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (add_executable):\n'}
+[2.322119] (bumperbot_controller) StderrLine: {'line': b'  No SOURCES given to target: twist_relay\n'}
+[2.322607] (bumperbot_controller) StderrLine: {'line': b'\n'}
+[2.323672] (bumperbot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.324200] (bumperbot_controller) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[2.324274] (bumperbot_localization) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[2.330546] (bumperbot_planning) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.330785] (bumperbot_planning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.330858] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.330924] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.330986] (bumperbot_planning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.331049] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.331114] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.331179] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.331244] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.331310] (bumperbot_planning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.331374] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.331437] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.331501] (bumperbot_planning) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.331579] (bumperbot_planning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.331647] (bumperbot_planning) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.331712] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.331789] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.331855] (bumperbot_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.331920] (bumperbot_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.331984] (bumperbot_planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.332049] (bumperbot_planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.332112] (bumperbot_planning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.332176] (bumperbot_planning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.332240] (bumperbot_planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.332304] (bumperbot_planning) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[2.332368] (bumperbot_planning) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[2.332432] (bumperbot_planning) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.332497] (bumperbot_planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.332569] (bumperbot_planning) StdoutLine: {'line': b'-- Found nav2_core: 1.3.9 (/opt/ros/jazzy/share/nav2_core/cmake)\n'}
+[2.332634] (bumperbot_controller) CommandEnded: {'returncode': 1}
+[2.341607] (bumperbot_mapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.341742] (bumperbot_mapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_mapping/include\n'}
+[2.342203] (bumperbot_mapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.344000] (bumperbot_mapping) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.344103] (bumperbot_mapping) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.354942] (bumperbot_mapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.362152] (bumperbot_mapping) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.378482] (bumperbot_planning) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.380261] (bumperbot_planning) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.380655] (bumperbot_planning) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.384791] (bumperbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.392667] (bumperbot_mapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.392787] (bumperbot_mapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.399241] (bumperbot_mapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.400683] (bumperbot_controller) JobEnded: {'identifier': 'bumperbot_controller', 'rc': 1}
+[2.404562] (-) TimerEvent: {}
+[2.406227] (bumperbot_localization) StdoutLine: {'line': b'-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization\n'}
+[2.416001] (bumperbot_motion) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.416407] (bumperbot_motion) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.416637] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.417065] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.417529] (bumperbot_motion) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.417611] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.417969] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.418031] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.418410] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.418779] (bumperbot_motion) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.419116] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.419595] (bumperbot_motion) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.419699] (bumperbot_motion) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.420090] (bumperbot_motion) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.420515] (bumperbot_motion) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.420854] (bumperbot_motion) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.421354] (bumperbot_motion) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.421416] (bumperbot_motion) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.421914] (bumperbot_motion) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.422243] (bumperbot_motion) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.422741] (bumperbot_motion) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.423228] (bumperbot_motion) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.423313] (bumperbot_motion) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.423881] (bumperbot_motion) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.423949] (bumperbot_motion) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.424011] (bumperbot_motion) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[2.424072] (bumperbot_motion) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.424440] (bumperbot_motion) StdoutLine: {'line': b'-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion\n'}
+[2.424904] (bumperbot_motion) JobEnded: {'identifier': 'bumperbot_motion', 'rc': 'SIGINT'}
+[2.429015] (bumperbot_localization) JobEnded: {'identifier': 'bumperbot_localization', 'rc': 'SIGINT'}
+[2.432181] (bumperbot_mapping) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.439555] (bumperbot_mapping) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (add_executable):\n'}
+[2.439780] (bumperbot_mapping) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.440263] (bumperbot_mapping) StderrLine: {'line': b'\n'}
+[2.440713] (bumperbot_mapping) StderrLine: {'line': b'    src/mapping_with_known_poses.cpp\n'}
+[2.441285] (bumperbot_mapping) StderrLine: {'line': b'\n'}
+[2.441894] (bumperbot_mapping) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.441993] (bumperbot_mapping) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.442420] (bumperbot_mapping) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.442934] (bumperbot_mapping) StderrLine: {'line': b'\n'}
+[2.443067] (bumperbot_mapping) StderrLine: {'line': b'\x1b[0m\n'}
+[2.444983] (bumperbot_mapping) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (add_executable):\n'}
+[2.445110] (bumperbot_mapping) StderrLine: {'line': b'  No SOURCES given to target: mapping_with_known_poses\n'}
+[2.445535] (bumperbot_mapping) StderrLine: {'line': b'\n'}
+[2.445618] (bumperbot_mapping) StderrLine: {'line': b'\x1b[0m\n'}
+[2.446822] (bumperbot_mapping) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[2.456174] (bumperbot_mapping) JobEnded: {'identifier': 'bumperbot_mapping', 'rc': 'SIGINT'}
+[2.504615] (-) TimerEvent: {}
+[2.604812] (-) TimerEvent: {}
+[2.665649] (bumperbot_firmware) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.704888] (-) TimerEvent: {}
+[2.805149] (-) TimerEvent: {}
+[2.905396] (-) TimerEvent: {}
+[2.950156] (bumperbot_firmware) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[2.950356] (bumperbot_planning) StdoutLine: {'line': b'-- Configuring done (2.8s)\n'}
+[3.005485] (-) TimerEvent: {}
+[3.047814] (bumperbot_firmware) StdoutLine: {'line': b'-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware\n'}
+[3.060270] (bumperbot_firmware) JobEnded: {'identifier': 'bumperbot_firmware', 'rc': 'SIGINT'}
+[3.105597] (-) TimerEvent: {}
+[3.205839] (-) TimerEvent: {}
+[3.306087] (-) TimerEvent: {}
+[3.309923] (bumperbot_planning) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[3.406229] (-) TimerEvent: {}
+[3.463255] (bumperbot_planning) StdoutLine: {'line': b'-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning\n'}
+[3.496562] (bumperbot_planning) JobEnded: {'identifier': 'bumperbot_planning', 'rc': 'SIGINT'}
+[3.506318] (-) TimerEvent: {}
+[3.606559] (-) TimerEvent: {}
+[3.706848] (-) TimerEvent: {}
+[3.807038] (-) TimerEvent: {}
+[3.867558] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.867685] (bumperbot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.907143] (-) TimerEvent: {}
+[4.007363] (-) TimerEvent: {}
+[4.107657] (-) TimerEvent: {}
+[4.114313] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.207711] (-) TimerEvent: {}
+[4.235770] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.307790] (-) TimerEvent: {}
+[4.370881] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.407889] (-) TimerEvent: {}
+[4.508108] (-) TimerEvent: {}
+[4.608324] (-) TimerEvent: {}
+[4.708547] (-) TimerEvent: {}
+[4.808847] (-) TimerEvent: {}
+[4.909062] (-) TimerEvent: {}
+[5.009261] (-) TimerEvent: {}
+[5.063640] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.070934] (bumperbot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.109370] (-) TimerEvent: {}
+[5.185083] (bumperbot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.209495] (-) TimerEvent: {}
+[5.288335] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.309608] (-) TimerEvent: {}
+[5.316786] (bumperbot_description) StdoutLine: {'line': b'-- Configuring done (5.2s)\n'}
+[5.409717] (-) TimerEvent: {}
+[5.432748] (bumperbot_description) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.490677] (bumperbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_description\n'}
+[5.493802] (bumperbot_description) JobEnded: {'identifier': 'bumperbot_description', 'rc': 'SIGINT'}
+[5.509817] (-) TimerEvent: {}
+[5.609999] (-) TimerEvent: {}
+[5.615015] (bumperbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.710104] (-) TimerEvent: {}
+[5.810359] (-) TimerEvent: {}
+[5.910589] (-) TimerEvent: {}
+[6.010852] (-) TimerEvent: {}
+[6.111380] (-) TimerEvent: {}
+[6.211910] (-) TimerEvent: {}
+[6.258576] (bumperbot_msgs) StdoutLine: {'line': b'-- Configuring done (6.2s)\n'}
+[6.312088] (-) TimerEvent: {}
+[6.412626] (-) TimerEvent: {}
+[6.513135] (-) TimerEvent: {}
+[6.613639] (-) TimerEvent: {}
+[6.714188] (-) TimerEvent: {}
+[6.814905] (-) TimerEvent: {}
+[6.915437] (-) TimerEvent: {}
+[7.015960] (-) TimerEvent: {}
+[7.116396] (-) TimerEvent: {}
+[7.216717] (-) TimerEvent: {}
+[7.317215] (-) TimerEvent: {}
+[7.417661] (-) TimerEvent: {}
+[7.517825] (-) TimerEvent: {}
+[7.537647] (bumperbot_msgs) StdoutLine: {'line': b'-- Generating done (1.2s)\n'}
+[7.617960] (-) TimerEvent: {}
+[7.718231] (-) TimerEvent: {}
+[7.815379] (bumperbot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs\n'}
+[7.818347] (-) TimerEvent: {}
+[7.845001] (bumperbot_msgs) JobEnded: {'identifier': 'bumperbot_msgs', 'rc': 'SIGINT'}
+[7.857329] (bumperbot_utils) JobSkipped: {'identifier': 'bumperbot_utils'}
+[7.857449] (bumperbot_bringup) JobSkipped: {'identifier': 'bumperbot_bringup'}
+[7.857494] (bumperbot_cpp_examples) JobSkipped: {'identifier': 'bumperbot_cpp_examples'}
+[7.857526] (bumperbot_navigation) JobSkipped: {'identifier': 'bumperbot_navigation'}
+[7.857570] (bumperbot_py_examples) JobSkipped: {'identifier': 'bumperbot_py_examples'}
+[7.857604] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[1.299s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.673s] running egg_info
+[1.707s] writing ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[1.711s] writing dependency_links to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[1.713s] writing entry points to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[1.716s] writing requirements to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[1.719s] writing top-level names to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[1.801s] reading manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.804s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.807s] running build
+[1.807s] running build_py
+[1.814s] running install
+[1.820s] running install_lib
+[1.869s] running install_data
+[1.871s] running install_egg_info
+[1.908s] removing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[1.915s] Copying ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[1.944s] running install_scripts
+[2.161s] Installing simple_action_client script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.164s] Installing simple_action_server script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.167s] Installing simple_lifecycle_node script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.169s] Installing simple_parameter script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.172s] Installing simple_publisher script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.175s] Installing simple_qos_publisher script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.177s] Installing simple_qos_subscriber script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.180s] Installing simple_service_client script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.182s] Installing simple_service_server script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.185s] Installing simple_subscriber script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.188s] Installing simple_tf_kinematics script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.190s] Installing simple_turtlesim_kinematics script to /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.194s] writing list of installed files to '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/install.log'
+[2.216s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

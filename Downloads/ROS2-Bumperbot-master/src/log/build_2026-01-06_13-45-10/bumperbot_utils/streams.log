@@ -1,0 +1,42 @@
+[0.589s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils -- -j8 -l8
+[0.680s] [100%] Built target safety_stop
+[0.680s] [100%] Built target ament_cmake_python_copy_bumperbot_utils
+[0.950s] running egg_info
+[0.984s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.988s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.992s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.102s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.104s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.131s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[1.191s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils -- -j8 -l8
+[1.191s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils
+[1.200s] -- Install configuration: ""
+[1.201s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[1.201s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[1.202s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[1.204s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[1.209s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[1.215s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.221s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.227s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[1.228s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[1.229s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[1.265s] Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[1.271s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[1.277s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[1.277s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[1.278s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[1.279s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[1.280s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[1.281s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[1.282s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[1.282s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[1.283s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[1.284s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[1.285s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[1.286s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[1.291s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[1.291s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[1.292s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[1.293s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[1.356s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils

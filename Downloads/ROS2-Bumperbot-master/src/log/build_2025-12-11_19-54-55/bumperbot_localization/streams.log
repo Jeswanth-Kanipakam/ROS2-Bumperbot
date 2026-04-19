@@ -1,0 +1,20 @@
+[0.077s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_localization -- -j8 -l8
+[0.195s] [ 16%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[0.196s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.196s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[0.227s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.655s] running egg_info
+[0.659s] creating bumperbot_localization.egg-info
+[0.737s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.740s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.749s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.752s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.903s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.914s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.963s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[9.041s] [ 66%] [32m[1mLinking CXX executable imu_republisher[0m
+[9.447s] [ 83%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[9.531s] [ 83%] Built target imu_republisher
+[9.841s] [ 83%] Built target odometry_motion_model
+[10.847s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[11.424s] [100%] Built target kalman_filter

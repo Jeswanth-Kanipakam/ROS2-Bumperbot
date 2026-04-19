@@ -1,0 +1,38 @@
+[0.076s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils
+[0.097s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.363s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.399s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.411s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.519s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.669s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.670s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.706s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.738s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.806s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.846s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.079s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.087s] -- Added test 'lint_cmake' to check CMake code style
+[1.092s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.113s] -- Added test 'xmllint' to check XML markup files
+[1.146s] -- Configuring done (1.1s)
+[1.169s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[1.169s]   Cannot find source file:
+[1.169s] 
+[1.169s]     src/safety_stop.cpp
+[1.169s] 
+[1.169s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.169s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.169s]   .f95 .f03 .hip .ispc
+[1.169s] 
+[1.169s] [0m
+[1.170s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[1.171s]   No SOURCES given to target: safety_stop
+[1.171s] 
+[1.171s] [0m
+[1.171s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.510s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_utils' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_utils

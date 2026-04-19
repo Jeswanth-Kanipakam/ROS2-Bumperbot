@@ -1,0 +1,20 @@
+[0.109s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping -- -j8 -l8
+[0.160s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping -- -j8 -l8
+[0.162s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping
+[0.714s] -- Install configuration: ""
+[0.714s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[0.715s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[0.716s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[0.716s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[0.716s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[0.716s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[0.716s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[0.716s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[0.725s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping

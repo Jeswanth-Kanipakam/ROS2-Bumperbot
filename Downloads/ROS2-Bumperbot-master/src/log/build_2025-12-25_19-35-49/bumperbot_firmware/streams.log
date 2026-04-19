@@ -1,0 +1,62 @@
+[0.263s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware -- -j8 -l8
+[0.559s] [ 66%] Built target simple_serial_receiver
+[0.559s] [ 66%] Built target simple_serial_transmitter
+[0.569s] [100%] Built target bumperbot_firmware
+[0.571s] [100%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.910s] running egg_info
+[0.948s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.951s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.953s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.066s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.069s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.098s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.113s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware -- -j8 -l8
+[1.124s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware
+[1.152s] -- Install configuration: ""
+[1.152s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[1.152s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[1.153s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[1.155s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[1.160s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[1.166s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.172s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.178s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware
+[1.180s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[1.181s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[1.182s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py
+[1.183s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[1.248s] Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[1.252s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[1.296s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[1.304s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/include/include
+[1.306s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/include/include/bumperbot_firmware
+[1.308s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[1.309s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[1.312s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[1.313s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[1.314s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[1.315s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[1.343s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[1.377s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[1.383s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[1.384s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[1.387s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[1.390s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[1.390s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[1.391s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[1.392s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[1.393s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[1.394s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[1.396s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[1.396s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[1.398s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[1.399s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[1.407s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[1.409s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[1.411s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.412s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.413s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.414s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[1.416s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[1.417s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[1.708s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_firmware

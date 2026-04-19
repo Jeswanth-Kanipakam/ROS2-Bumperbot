@@ -1,0 +1,21 @@
+[0.082s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping
+[0.195s] -- The C compiler identification is GNU 13.3.0
+[0.303s] -- The CXX compiler identification is GNU 13.3.0
+[0.327s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.551s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.552s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.570s] -- Detecting CXX compiler ABI info
+[0.805s] -- Detecting CXX compiler ABI info - done
+[0.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.820s] -- Detecting CXX compile features
+[0.821s] -- Detecting CXX compile features - done
+[0.838s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.994s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.195s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.387s] -- Added test 'lint_cmake' to check CMake code style
+[1.414s] -- Added test 'xmllint' to check XML markup files
+[1.438s] -- Configuring done (1.3s)
+[1.547s] -- Generating done (0.1s)
+[1.592s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_mapping

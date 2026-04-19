@@ -1,0 +1,24 @@
+[0.068s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs -- -j8 -l8
+[0.178s] [  1%] Built target bumperbot_msgs__rosidl_generator_type_description
+[0.220s] [  3%] Built target bumperbot_msgs__cpp
+[0.260s] [ 24%] Built target bumperbot_msgs__rosidl_generator_c
+[0.317s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_c
+[0.324s] [ 37%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.330s] [ 53%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[0.339s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[0.340s] [ 75%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[0.341s] [ 75%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.349s] [ 79%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[0.374s] [ 79%] Built target bumperbot_msgs
+[0.399s] [ 81%] Built target bumperbot_msgs__py
+[0.443s] [ 88%] Built target bumperbot_msgs__rosidl_generator_py
+[0.480s] [ 94%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[0.480s] [ 96%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c
+[0.487s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+[0.627s] running egg_info
+[0.663s] writing bumperbot_msgs.egg-info/PKG-INFO
+[0.667s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[0.672s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[0.790s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.795s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.825s] [100%] Built target ament_cmake_python_build_bumperbot_msgs_egg

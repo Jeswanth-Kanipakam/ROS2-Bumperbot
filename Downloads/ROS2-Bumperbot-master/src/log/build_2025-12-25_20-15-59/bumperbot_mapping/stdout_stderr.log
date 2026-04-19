@@ -1,0 +1,52 @@
+Built target ament_cmake_python_copy_bumperbot_mapping
+running egg_info
+writing bumperbot_mapping.egg-info/PKG-INFO
+writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_bumperbot_mapping_egg
+-- Install configuration: ""
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/include/include
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/include/include/bumperbot_mapping
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/config
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/launch
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map(1).pgm
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map(1).pgm
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_mapping/share/bumperbot_mapping/package.xml

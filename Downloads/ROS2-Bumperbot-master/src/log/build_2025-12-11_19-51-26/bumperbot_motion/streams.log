@@ -1,0 +1,29 @@
+[0.107s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion -DCMAKE_INSTALL_PREFIX=/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion
+[2.367s] -- The C compiler identification is GNU 13.3.0
+[2.367s] -- The CXX compiler identification is GNU 13.3.0
+[2.368s] -- Detecting C compiler ABI info
+[2.368s] -- Detecting C compiler ABI info - done
+[2.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.368s] -- Detecting C compile features
+[2.369s] -- Detecting C compile features - done
+[2.369s] -- Detecting CXX compiler ABI info
+[2.369s] -- Detecting CXX compiler ABI info - done
+[2.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.370s] -- Detecting CXX compile features
+[2.370s] -- Detecting CXX compile features - done
+[2.371s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.371s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.372s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.372s] -- Configured cppcheck include dirs: 
+[2.373s] -- Configured cppcheck exclude dirs and/or files: 
+[2.373s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.373s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.374s] -- Added test 'lint_cmake' to check CMake code style
+[2.374s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.375s] -- Added test 'uncrustify' to check C / C++ code style
+[2.375s] -- Configured uncrustify additional arguments: 
+[2.375s] -- Added test 'xmllint' to check XML markup files
+[2.375s] -- Configuring done (1.3s)
+[2.375s] -- Generating done (0.1s)
+[2.376s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion

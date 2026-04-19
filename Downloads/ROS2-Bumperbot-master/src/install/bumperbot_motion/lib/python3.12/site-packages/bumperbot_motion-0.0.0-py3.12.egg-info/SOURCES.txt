@@ -1,0 +1,8 @@
+setup.py
+bumperbot_motion/__init__.py
+bumperbot_motion/pd_motion_planner.py
+bumperbot_motion/pure_pursuit.py
+bumperbot_motion.egg-info/PKG-INFO
+bumperbot_motion.egg-info/SOURCES.txt
+bumperbot_motion.egg-info/dependency_links.txt
+bumperbot_motion.egg-info/top_level.txt

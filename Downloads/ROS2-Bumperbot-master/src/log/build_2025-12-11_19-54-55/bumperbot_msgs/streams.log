@@ -1,0 +1,80 @@
+[0.068s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_msgs -- -j8 -l8
+[0.188s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.202s] [  1%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.614s] running egg_info
+[0.618s] creating bumperbot_msgs.egg-info
+[0.644s] [  1%] Built target bumperbot_msgs__rosidl_generator_type_description
+[0.686s] writing bumperbot_msgs.egg-info/PKG-INFO
+[0.687s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.694s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[0.699s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[0.699s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.706s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.810s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.817s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.882s] [  5%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[1.674s] [  5%] Built target bumperbot_msgs__cpp
+[1.954s] [  9%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__description.c.o[0m
+[1.954s] [  9%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[1.960s] [ 12%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__functions.c.o[0m
+[1.962s] [ 14%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[1.964s] [ 14%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__description.c.o[0m
+[1.965s] [ 16%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[1.972s] [ 18%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__description.c.o[0m
+[1.978s] [ 20%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[2.093s] [ 22%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[2.236s] [ 24%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[2.333s] [ 24%] Built target bumperbot_msgs__rosidl_generator_c
+[2.360s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.378s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.382s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.382s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.382s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.382s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.161s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[3.161s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.163s] [ 40%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[3.188s] [ 42%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[3.311s] [ 44%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.326s] [ 46%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[3.341s] [ 48%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[3.412s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[3.450s] [ 50%] Built target bumperbot_msgs__rosidl_typesupport_c
+[3.467s] [ 51%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[3.512s] [ 53%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[3.677s] [ 55%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[3.728s] [ 57%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[3.791s] [ 59%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[3.912s] [ 61%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.934s] [ 62%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[4.016s] [ 62%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[4.037s] [ 64%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[4.043s] [ 68%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[4.043s] [ 68%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[4.272s] [ 70%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[4.292s] [ 72%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[4.509s] [ 72%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[4.528s] [ 74%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[5.007s] [ 75%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.106s] [ 77%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.214s] [ 77%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[5.223s] [ 79%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.266s] [ 79%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[5.354s] [ 79%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[5.380s] [ 79%] Built target bumperbot_msgs
+[5.413s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.475s] [ 81%] Built target bumperbot_msgs__py
+[6.520s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/action/_fibonacci_s.c.o[0m
+[6.520s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[6.525s] [ 87%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[6.796s] [ 88%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_py.so[0m
+[6.866s] [ 88%] Built target bumperbot_msgs__rosidl_generator_py
+[6.904s] [ 94%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.904s] [ 94%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.904s] [ 94%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.068s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.068s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so[0m
+[7.075s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[7.121s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[7.121s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+[7.128s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c

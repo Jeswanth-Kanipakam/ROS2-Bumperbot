@@ -1,0 +1,20 @@
+[0.099s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion -- -j8 -l8
+[1.102s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion -- -j8 -l8
+[1.130s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion
+[2.068s] -- Install configuration: ""
+[2.069s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[2.069s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[2.069s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[2.069s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[2.070s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[2.070s] -- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[2.070s] -- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[2.086s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion

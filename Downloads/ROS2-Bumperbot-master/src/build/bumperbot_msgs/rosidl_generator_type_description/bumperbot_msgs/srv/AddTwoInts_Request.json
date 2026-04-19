@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "bumperbot_msgs/srv/AddTwoInts_Request",
+      "fields": [
+        {
+          "name": "a",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "b",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "bumperbot_msgs/srv/AddTwoInts_Request",
+      "hash_string": "RIHS01_ce5b7a2930a7fd8028d18d557f3c27d9b759fd0b3685d719558a77b2fcaa19b9"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+[0.304s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion -- -j8 -l8
+[0.904s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.905s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.905s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.905s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.040s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.048s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.145s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.169s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.297s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.307s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.381s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[1.390s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.572s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.607s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.608s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.608s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.616s] -- Found nav2_core: 1.3.9 (/opt/ros/jazzy/share/nav2_core/cmake)
+[2.494s] -- Configuring done (2.1s)
+[2.790s] -- Generating done (0.3s)
+[2.897s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion
+[2.957s] [ 25%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+[2.966s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[2.995s] [ 50%] Built target ament_cmake_python_copy_bumperbot_motion
+[3.306s] running egg_info
+[3.308s] creating bumperbot_motion.egg-info
+[3.347s] writing bumperbot_motion.egg-info/PKG-INFO
+[3.349s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[3.352s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[3.359s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[3.469s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[3.472s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[3.503s] [ 50%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[5.183s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:10:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.183s]    10 | void [01;31m[KPDMotionPlanner[m[K::configure(
+[5.183s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.185s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle[m[K’ does not name a type
+[5.186s]    11 |   const [01;31m[Krclcpp_lifecycle[m[K::LifecycleNode::WeakPtr & parent,
+[5.186s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:11:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[5.186s]    11 |   const rclcpp_lifecycle::LifecycleNode[01;31m[K::[m[KWeakPtr & parent,
+[5.186s]       |                                        [01;31m[K^~[m[K
+[5.186s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:11:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.186s]    11 |   const rclcpp_lifecycle::LifecycleNode[01;31m[K:[m[K[32m[K:[m[KWeakPtr & parent,
+[5.186s]       |                                        [01;31m[K^[m[K[32m[K~[m[K
+[5.186s]       |                                        [32m[K)[m[K
+[5.186s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:10:32:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[5.186s]    10 | void PDMotionPlanner::configure[01;36m[K([m[K
+[5.186s]       |                                [01;36m[K^[m[K
+[5.186s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:11:40:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[5.186s]    11 |   const rclcpp_lifecycle::LifecycleNode[01;31m[K::[m[KWeakPtr & parent,
+[5.186s]       |                                        [01;31m[K^~[m[K
+[5.186s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:50:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.186s]    50 | void [01;31m[KPDMotionPlanner[m[K::cleanup()
+[5.187s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.190s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[5.190s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[5.190s]                  from [01m[K/opt/ros/jazzy/include/nav2_util/nav2_util/node_utils.hpp:21[m[K,
+[5.190s]                  from [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:3[m[K:
+[5.190s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K In function ‘[01m[Kvoid bumperbot_motion::[01;32m[Kcleanup[m[K()[m[K’:
+[5.190s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:52:15:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[5.190s]    52 |   RCLCPP_INFO([01;31m[Klogger_[m[K, "Cleaning up PDMotionPlanner");
+[5.190s]       |               [01;31m[K^~~~~~~[m[K
+[5.190s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:52:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.191s]    52 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Cleaning up PDMotionPlanner");
+[5.191s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.191s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:52:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.191s]    52 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Cleaning up PDMotionPlanner");
+[5.191s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.191s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:52:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.191s]    52 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Cleaning up PDMotionPlanner");
+[5.191s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.196s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_pose_pub_[m[K’ was not declared in this scope
+[5.196s]    53 |   [01;31m[Knext_pose_pub_[m[K.reset();
+[5.196s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.196s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K At global scope:
+[5.196s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:56:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.196s]    56 | void [01;31m[KPDMotionPlanner[m[K::activate()
+[5.196s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.199s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K In function ‘[01m[Kvoid bumperbot_motion::[01;32m[Kactivate[m[K()[m[K’:
+[5.200s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:58:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+[5.200s]    58 |   auto node = [01;31m[Knode_[m[K.lock();
+[5.200s]       |               [01;31m[K^~~~~[m[K
+[5.200s]       |               [32m[Knode[m[K
+[5.203s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:59:15:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[5.203s]    59 |   RCLCPP_INFO([01;31m[Klogger_[m[K, "Activating PDMotionPlanner");
+[5.203s]       |               [01;31m[K^~~~~~~[m[K
+[5.204s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:59:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.204s]    59 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Activating PDMotionPlanner");
+[5.204s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.204s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:59:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.204s]    59 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Activating PDMotionPlanner");
+[5.204s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.204s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:59:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.204s]    59 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Activating PDMotionPlanner");
+[5.204s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.209s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_pose_pub_[m[K’ was not declared in this scope
+[5.209s]    60 |   [01;31m[Knext_pose_pub_[m[K->on_activate();
+[5.209s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.215s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:61:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_cycle_time_[m[K’ was not declared in this scope
+[5.215s]    61 |   [01;31m[Klast_cycle_time_[m[K = node->get_clock()->now();
+[5.215s]       |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.216s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K At global scope:
+[5.216s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:64:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.216s]    64 | void [01;31m[KPDMotionPlanner[m[K::deactivate()
+[5.216s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.219s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K In function ‘[01m[Kvoid bumperbot_motion::[01;32m[Kdeactivate[m[K()[m[K’:
+[5.219s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:66:15:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[5.219s]    66 |   RCLCPP_INFO([01;31m[Klogger_[m[K, "Deactivating PDMotionPlanner");
+[5.220s]       |               [01;31m[K^~~~~~~[m[K
+[5.220s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:66:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.220s]    66 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Deactivating PDMotionPlanner");
+[5.220s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.220s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:66:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.220s]    66 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Deactivating PDMotionPlanner");
+[5.220s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.220s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:66:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.220s]    66 |   [01;31m[KRCLCPP_INFO[m[K(logger_, "Deactivating PDMotionPlanner");
+[5.220s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.225s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_pose_pub_[m[K’ was not declared in this scope
+[5.225s]    67 |   [01;31m[Knext_pose_pub_[m[K->on_deactivate();
+[5.225s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.226s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K At global scope:
+[5.226s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:70:21:[m[K [01;31m[Kerror: [m[K‘[01m[KTwistStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KPointStamped[m[K’?
+[5.226s]    70 | geometry_msgs::msg::[01;31m[KTwistStamped[m[K PDMotionPlanner::computeVelocityCommands(
+[5.226s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[5.226s]       |                     [32m[KPointStamped[m[K
+[5.226s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:118:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.226s]   118 | void [01;31m[KPDMotionPlanner[m[K::setPlan(const nav_msgs::msg::Path & path)
+[5.226s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.227s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:118:37:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+[5.227s]   118 | void PDMotionPlanner::setPlan(const [01;31m[Knav_msgs[m[K::msg::Path & path)
+[5.227s]       |                                     [01;31m[K^~~~~~~~[m[K
+[5.227s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:118:50:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[5.227s]   118 | void PDMotionPlanner::setPlan(const nav_msgs::msg[01;31m[K::[m[KPath & path)
+[5.227s]       |                                                  [01;31m[K^~[m[K
+[5.227s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:118:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.227s]   118 | void PDMotionPlanner::setPlan[34m[K([m[Kconst nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KPath & path)
+[5.227s]       |                              [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[5.227s]       |                                                  [32m[K)[m[K
+[5.228s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:118:50:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[5.228s]   118 | void PDMotionPlanner::setPlan(const nav_msgs::msg[01;31m[K::[m[KPath & path)
+[5.228s]       |                                                  [01;31m[K^~[m[K
+[5.228s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.228s]   123 | void [01;31m[KPDMotionPlanner[m[K::setSpeedLimit(const double &, const bool &){}
+[5.228s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.228s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:125:33:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.228s]   125 | geometry_msgs::msg::PoseStamped [01;31m[KPDMotionPlanner[m[K::getNextPose(const geometry_msgs::msg::PoseStamped & robot_pose)
+[5.228s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.232s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::PoseStamped bumperbot_motion::[01;32m[KgetNextPose[m[K(const geometry_msgs::msg::PoseStamped&)[m[K’:
+[5.232s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:127:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[5.232s]   127 |   geometry_msgs::msg::PoseStamped next_pose = [01;31m[Kglobal_plan_[m[K.poses.back();
+[5.232s]       |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[5.236s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:132:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_size_[m[K’ was not declared in this scope
+[5.236s]   132 |     if(distance > [01;31m[Kstep_size_[m[K){
+[5.236s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[5.236s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K At global scope:
+[5.236s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:141:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ has not been declared
+[5.237s]   141 | bool [01;31m[KPDMotionPlanner[m[K::transformPlan(const std::string & frame)
+[5.237s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.241s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K In function ‘[01m[Kbool bumperbot_motion::[01;32m[KtransformPlan[m[K(const std::string&)[m[K’:
+[5.241s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:143:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[5.241s]   143 |   if([01;31m[Kglobal_plan_[m[K.header.frame_id == frame){
+[5.241s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[5.246s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:148:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[5.246s]   148 |     transform = [01;31m[Ktf_buffer_[m[K->lookupTransform(frame, global_plan_.header.frame_id, tf2::TimePointZero);
+[5.246s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[5.251s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:148:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[5.251s]   148 |     transform = tf_buffer_->lookupTransform(frame, [01;31m[Kglobal_plan_[m[K.header.frame_id, tf2::TimePointZero);
+[5.251s]       |                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[5.255s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:150:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[5.255s]   150 |     RCLCPP_ERROR_STREAM([01;31m[Klogger_[m[K, "Couldn't transform plan from frame " <<
+[5.255s]       |                         [01;31m[K^~~~~~~[m[K
+[5.255s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:150:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.255s]   150 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(logger_, "Couldn't transform plan from frame " <<
+[5.255s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.255s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:150:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.255s]   150 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(logger_, "Couldn't transform plan from frame " <<
+[5.255s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.255s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:150:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.255s]   150 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(logger_, "Couldn't transform plan from frame " <<
+[5.255s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.259s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:151:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[5.259s]   151 |       [01;31m[Kglobal_plan_[m[K.header.frame_id << " to frame " << frame);
+[5.260s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[5.265s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:154:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[5.265s]   154 |   for(auto & pose : [01;31m[Kglobal_plan_[m[K.poses){
+[5.265s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[5.270s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:157:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[5.270s]   157 |   [01;31m[Kglobal_plan_[m[K.header.frame_id = frame;
+[5.270s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[5.289s] In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[5.289s]                  from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[5.289s]                  from [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:163[m[K:
+[5.289s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K At global scope:
+[5.289s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPDMotionPlanner[m[K’ in namespace ‘[01m[Kbumperbot_motion[m[K’ does not name a type
+[5.289s]   164 | PLUGINLIB_EXPORT_CLASS(bumperbot_motion::[01;31m[KPDMotionPlanner[m[K, nav2_core::Controller)
+[5.289s]       |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.291s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:59:[m[K [01;31m[Kerror: [m[K‘[01m[Knav2_core[m[K’ does not name a type
+[5.291s]   164 | PLUGINLIB_EXPORT_CLASS(bumperbot_motion::PDMotionPlanner, [01;31m[Knav2_core[m[K::Controller)
+[5.291s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[5.299s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[5.299s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[5.299s]   164 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_motion::PDMotionPlanner, nav2_core::Controller)
+[5.299s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.305s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope; did you mean ‘[01m[K__bases[m[K’?
+[5.305s]   164 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_motion::PDMotionPlanner, nav2_core::Controller)
+[5.305s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.305s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [34], const char [22])[m[K’
+[5.305s]   164 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_motion::PDMotionPlanner, nav2_core::Controller)
+[5.305s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.305s] In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[5.305s] [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+[5.305s]   241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[5.305s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.306s] [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.306s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.306s]   164 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_motion::PDMotionPlanner, nav2_core::Controller)
+[5.306s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.306s] [01m[K/home/eeiww/ud90uhak/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:164:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.871s] gmake[2]: *** [CMakeFiles/pd_motion_planner.dir/build.make:76: CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o] Error 1
+[5.872s] gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/pd_motion_planner.dir/all] Error 2
+[5.872s] gmake[1]: *** Waiting for unfinished jobs....
+[8.682s] [ 75%] [32m[1mLinking CXX shared library libpure_pursuit.so[0m
+[9.077s] [ 75%] Built target pure_pursuit
+[9.078s] gmake: *** [Makefile:146: all] Error 2
+[9.079s] Invoked command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_motion -- -j8 -l8

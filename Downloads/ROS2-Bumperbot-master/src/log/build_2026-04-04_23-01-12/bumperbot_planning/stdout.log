@@ -1,0 +1,79 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found nav2_core: 1.3.10 (/opt/ros/jazzy/share/nav2_core/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (1.7s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_planning
+[  0%] Built target ament_cmake_python_copy_bumperbot_planning
+[ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+running egg_info
+writing bumperbot_planning.egg-info/PKG-INFO
+writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+writing top-level names to bumperbot_planning.egg-info/top_level.txt
+reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[ 75%] [32m[1mLinking CXX shared library libdijkstra_planner.so[0m
+[ 75%] Built target dijkstra_planner
+[100%] [32m[1mLinking CXX shared library liba_star_planner.so[0m
+[100%] Built target a_star_planner
+-- Install configuration: ""
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py
+Listing '/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning'...
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/libdijkstra_planner.so
+-- Set non-toolchain portion of runtime path of "/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/libdijkstra_planner.so" to ""
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/liba_star_planner.so
+-- Set non-toolchain portion of runtime path of "/home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/liba_star_planner.so" to ""
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include/bumperbot_planning
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+-- Installing: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/bumperbot_ws/src/install/bumperbot_planning/share/bumperbot_planning/package.xml

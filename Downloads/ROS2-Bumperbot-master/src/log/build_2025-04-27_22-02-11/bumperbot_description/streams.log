@@ -1,0 +1,14 @@
+[0.124s] Invoking command in '/home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_description -- -j8 -l8
+[0.243s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.502s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.531s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.542s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.713s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.159s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.159s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.390s] -- Added test 'lint_cmake' to check CMake code style
+[3.506s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.712s] -- Added test 'xmllint' to check XML markup files
+[4.729s] -- Configuring done (4.5s)
+[4.863s] -- Generating done (0.1s)
+[4.906s] -- Build files have been written to: /home/eeiww/ud90uhak/bumperbot_ws/src/build/bumperbot_description
