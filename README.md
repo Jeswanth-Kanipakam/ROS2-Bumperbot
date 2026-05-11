@@ -82,36 +82,36 @@ src/
 |       ├── real_robot.launch.py
 |       ├── simulated_robot.launch.py
 |
-├── bumperbot_description/     # Robot model and visualization
-│   ├── urdf/                  # Robot URDF/XACRO files
-│   ├── meshes/                # 3D mesh files
-│   ├── launch/                # Launch files for visualization
-│   ├── rviz/                  # RViz configurations
+├── bumperbot_description/                       # Robot model and visualization
+│   ├── urdf/                                    # Robot URDF/XACRO files
+│   ├── meshes/                                  # 3D mesh files
+│   ├── launch/                                  # Launch files for visualization
+│   ├── rviz/                                    # RViz configurations
 |   ├── photos/
 |   ├── models/
 |   ├── worlds/
 │
-├── bumperbot_controller/          # Robot control configuration
+├── bumperbot_controller/                        # Robot control configuration
 |   ├── bumperbot_controller/
-|       ├── noisy_controller.py    # Computes and publishes noisy odometry and TF from joint states.
-|       ├── simple_controller.py   # Converts cmd_vel to wheel commands and publishes odometry from joints.
-|       ├── twist_relay.py         # Stamps controller twist messages; unstamps joystick twist messages.
-│   ├── config/                    # Controller parameters
-│   └── launch/                    # Control launch files
+|       ├── noisy_controller.py                  # Computes and publishes noisy odometry and TF from joint states.
+|       ├── simple_controller.py                 # Converts cmd_vel to wheel commands and publishes odometry from joints.
+|       ├── twist_relay.py                       # Stamps controller twist messages; unstamps joystick twist messages.
+│   ├── config/                                  # Controller parameters
+│   └── launch/                                  # Control launch files
 │
 ├── bumperbot_firmware/ 
 |   ├── bumperbot_firmware/
-|       ├── mpu6050_driver.py                # ROS 2 node publishing MPU6050 IMU data read from I2C.
-|       ├── simple_serial_receiver.py        # Reads serial port data and publishes it to a ROS 2 topic.
-|       ├── simple_serial_transmitter.py     # Subscribes to ROS 2 topic, writes received strings to serial.
+|       ├── mpu6050_driver.py                    # ROS 2 node publishing MPU6050 IMU data read from I2C.
+|       ├── simple_serial_receiver.py            # Reads serial port data and publishes it to a ROS 2 topic.
+|       ├── simple_serial_transmitter.py         # Subscribes to ROS 2 topic, writes received strings to serial.
 │   ├── config/                
 │   └── launch/                
 │
 ├── bumperbot_localization/ 
 |   ├── bumperbot_localization/
-|       ├── imu_republisher.py          # Subscribes to IMU, changes frame_id and republishes it.
-|       ├── kalman_filter.py            # Fuses noisy odometry and IMU angular velocity using Kalman filter.
-|       ├── odometry_motion_model.py    # Probabilistic odometry motion model updating a set of particles.
+|       ├── imu_republisher.py                  # Subscribes to IMU, changes frame_id and republishes it.
+|       ├── kalman_filter.py                    # Fuses noisy odometry and IMU angular velocity using Kalman filter.
+|       ├── odometry_motion_model.py            # Probabilistic odometry motion model updating a set of particles.
 │   ├── config/                
 │   └── launch/  
 │   └── rviz/ 
@@ -124,12 +124,12 @@ src/
 │   └── rviz/ 
 │   └── maps/ 
 |
-├── bumperbot_msgs/            # Custom ROS 2 interfaces
-│   ├── msg/                   # Custom messages
-│   ├── srv/                   # Custom services
-│   └── action/                # Custom actions
+├── bumperbot_msgs/                            # Custom ROS 2 interfaces
+│   ├── msg/                                   # Custom messages
+│   ├── srv/                                   # Custom services
+│   └── action/                                # Custom actions
 │
-├── bumperbot_py_examples/     # Python examples and tutorials
+├── bumperbot_py_examples/                     # Python examples and tutorials
 │   └── bumperbot_py_examples/
 │       ├── simple_publisher.py
 │       ├── simple_subscriber.py
@@ -142,10 +142,10 @@ src/
 │       ├── simple_qos_publisher.py
 │       ├── simple_qos_subscriber.py
 │
-├── bumperbot_cpp_examples/    # C++ examples and tutorials
-│   └── src/                   # C++ source files
+├── bumperbot_cpp_examples/                    # C++ examples and tutorials
+│   └── src/                                   # C++ source files
 │
-├── bumperbot_utils/           # Utility functions and tools
+├── bumperbot_utils/                           # Utility functions and tools
 │   └── bumperbotbot_utils/
 │       └── safety_stop.py
 ```
