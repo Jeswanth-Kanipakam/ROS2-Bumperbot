@@ -122,13 +122,46 @@ src/
 │   ├── config/                
 │   └── launch/  
 │   └── rviz/ 
-│   └── maps/ 
+│   └── maps/
+|
+├── bumperbot_motion/ 
+|   ├── bumperbot_motion/
+|       ├── pd_motion_planner.py
+|       ├── pure_pursuit.py        
+│   ├── include/
+|       ├── pd_motion_planner.hpp
+|       ├── pure_pursuit.hpp                  
+│   └── motion_planner_plugins.xml
 |
 ├── bumperbot_msgs/                            # Custom ROS 2 interfaces
 │   ├── msg/                                   # Custom messages
 │   ├── srv/                                   # Custom services
 │   └── action/                                # Custom actions
 │
+├── bumperbot_navigation/ 
+|   ├── behavior_tree
+|       ├── simple_navigation.xml
+|       ├── simple_navigation_w_replanning.xml
+|       ├── simple_navigation_w_replanning_and_recovery.xml
+│   ├── config/
+|       ├── behavior_server.yaml
+|       ├── bt_navigator.yaml
+|       ├── controller_server.yaml
+|       ├── costmap.yaml
+|       ├── planner_server.yaml
+|       ├── smoother_server.yaml             
+│   └── launch/
+|       ├── navigation.launch.py
+|
+├── bumperbot_planning/ 
+|   ├── bumperbot_planning/
+|       ├── a_star_planner.py
+|       ├── dijkstra_planner.py        
+│   ├── include/
+|       ├── a_star_planner.hpp
+|       ├── dijkstra_planner.hpp                  
+│   └── global_planner_plugins.xml
+|
 ├── bumperbot_py_examples/                     # Python examples and tutorials
 │   └── bumperbot_py_examples/
 │       ├── simple_publisher.py
