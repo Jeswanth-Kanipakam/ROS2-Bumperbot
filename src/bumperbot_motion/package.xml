@@ -4,8 +4,9 @@
   <name>bumperbot_motion</name>
   <version>0.0.0</version>
   <description>Bumperbot Motion package</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
-  <license>Apache 2.0</license>
+  <maintainer email="jeswanth.kanipakam@fau.de">ud90uhak</maintainer>
+  <license>TODO: License declaration</license>
+  <author email="jeswanth.kanipakam@fau.de">ud90uhak</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_python</buildtool_depend>
