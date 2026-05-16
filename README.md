@@ -36,13 +36,25 @@ Implemented techniques for constructing a map of the environment using sensors (
 10. **SLAM (Simultaneous Localization and Mapping):**
 Designed and tested SLAM algorithms to allow the robot to both localize itself and build a map simultaneously.
 
-11. **Obstacle Avoidance:**
+11. **Path Planning:**
+Implemented global path planning algorithms including A* and Dijkstra to compute optimal routes through the environment.
+
+12. **Motion Planning:**
+Developed local motion planners using PD control and Pure Pursuit to execute smooth trajectory following.
+
+13. **Behavior Trees:**
+Designed hierarchical behavior trees with Nav2 to manage navigation logic, replanning, and recovery behaviors.
+
+14. **Costmaps:**
+Configured global and local costmaps to represent traversable space and proximity to obstacles during planning.
+
+15. **Obstacle Avoidance:**
 Used sensors (LiDAR, cameras) to detect obstacles and plan paths to avoid them.
 
-12. **Speed and Separation Monitoring:**
+16. **Speed and Separation Monitoring:**
 Monitored the robot's speed and maintained separation from obstacles and other robots.
 
-13. **Using LiDAR Sensors:**
+17. **Using LiDAR Sensors:**
 Implemented algorithms to process and interpret data from LiDAR sensors to generate maps and detect obstacles.
 
 ## Prerequisites
