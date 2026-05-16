@@ -79,90 +79,90 @@ To prepare your PC you need:
 src/
 ├── bumperbot_bringup/
 |   ├──launch/
-|       ├── real_robot.launch.py
-|       ├── simulated_robot.launch.py
+|       ├── real_robot.launch.py                                 # Launches full real robot stack
+|       ├── simulated_robot.launch.py                            # Launches full simulation stack
 |
-├── bumperbot_description/                       # Robot model and visualization
-│   ├── urdf/                                    # Robot URDF/XACRO files
-│   ├── meshes/                                  # 3D mesh files
-│   ├── launch/                                  # Launch files for visualization
-│   ├── rviz/                                    # RViz configurations
+├── bumperbot_description/                                       # Robot model and visualization
+│   ├── urdf/                                                    # Robot URDF/XACRO files
+│   ├── meshes/                                                  # 3D mesh files
+│   ├── launch/                                                  # Launch files for visualization
+│   ├── rviz/                                                    # RViz configurations
 |   ├── photos/
 |   ├── models/
 |   ├── worlds/
 │
-├── bumperbot_controller/                        # Robot control configuration
+├── bumperbot_controller/                                        # Robot control configuration
 |   ├── bumperbot_controller/
-|       ├── noisy_controller.py                  # Computes and publishes noisy odometry and TF from joint states.
-|       ├── simple_controller.py                 # Converts cmd_vel to wheel commands and publishes odometry from joints.
-|       ├── twist_relay.py                       # Stamps controller twist messages; unstamps joystick twist messages.
-│   ├── config/                                  # Controller parameters
-│   └── launch/                                  # Control launch files
+|       ├── noisy_controller.py                                  # Computes and publishes noisy odometry and TF from joint states.
+|       ├── simple_controller.py                                 # Converts cmd_vel to wheel commands and publishes odometry from joints.
+|       ├── twist_relay.py                                       # Stamps controller twist messages; unstamps joystick twist messages.
+│   ├── config/                                                  # Controller parameters
+│   └── launch/                                                  # Control launch files
 │
 ├── bumperbot_firmware/ 
 |   ├── bumperbot_firmware/
-|       ├── mpu6050_driver.py                    # ROS 2 node publishing MPU6050 IMU data read from I2C.
-|       ├── simple_serial_receiver.py            # Reads serial port data and publishes it to a ROS 2 topic.
-|       ├── simple_serial_transmitter.py         # Subscribes to ROS 2 topic, writes received strings to serial.
+|       ├── mpu6050_driver.py                                    # ROS 2 node publishing MPU6050 IMU data read from I2C.
+|       ├── simple_serial_receiver.py                            # Reads serial port data and publishes it to a ROS 2 topic.
+|       ├── simple_serial_transmitter.py                         # Subscribes to ROS 2 topic, writes received strings to serial.
 │   ├── config/                
 │   └── launch/                
 │
 ├── bumperbot_localization/ 
 |   ├── bumperbot_localization/
-|       ├── imu_republisher.py                  # Subscribes to IMU, changes frame_id and republishes it.
-|       ├── kalman_filter.py                    # Fuses noisy odometry and IMU angular velocity using Kalman filter.
-|       ├── odometry_motion_model.py            # Probabilistic odometry motion model updating a set of particles.
+|       ├── imu_republisher.py                                   # Subscribes to IMU, changes frame_id and republishes it.
+|       ├── kalman_filter.py                                     # Fuses noisy odometry and IMU angular velocity using Kalman filter.
+|       ├── odometry_motion_model.py                             # Probabilistic odometry motion model updating a set of particles.
 │   ├── config/                
 │   └── launch/  
 │   └── rviz/ 
 |
 ├── bumperbot_mapping/ 
 |   ├── bumperbot_mapping
-|       ├── mapping_with_known_poses.py        # Builds an occupancy grid map using laser scans and TF poses.
+|       ├── mapping_with_known_poses.py                          # Builds an occupancy grid map using laser scans and TF poses.
 │   ├── config/                
 │   └── launch/  
 │   └── rviz/ 
-│   └── maps/
+│   └── maps/                                                    # Saved map files
 |
 ├── bumperbot_motion/ 
 |   ├── bumperbot_motion/
-|       ├── pd_motion_planner.py
-|       ├── pure_pursuit.py        
+|       ├── pd_motion_planner.py                                 # PD controller-based motion planner
+|       ├── pure_pursuit.py                                      # Pure pursuit path tracking controller      
 │   ├── include/
-|       ├── pd_motion_planner.hpp
-|       ├── pure_pursuit.hpp                  
-│   └── motion_planner_plugins.xml
+|       ├── pd_motion_planner.hpp                                # PD planner C++ header
+|       ├── pure_pursuit.hpp                                     # Pure pursuit C++ header              
+│   └── motion_planner_plugins.xml                               # Plugin registration for motion planners
 |
-├── bumperbot_msgs/                            # Custom ROS 2 interfaces
-│   ├── msg/                                   # Custom messages
-│   ├── srv/                                   # Custom services
-│   └── action/                                # Custom actions
+├── bumperbot_msgs/                                              # Custom ROS 2 interfaces
+│   ├── msg/                                                     # Custom messages
+│   ├── srv/                                                     # Custom services
+│   └── action/                                                  # Custom actions
 │
 ├── bumperbot_navigation/ 
 |   ├── behavior_tree
-|       ├── simple_navigation.xml
-|       ├── simple_navigation_w_replanning.xml
-|       ├── simple_navigation_w_replanning_and_recovery.xml
+|       ├── simple_navigation.xml                                # Basic navigation behavior tree
+|       ├── simple_navigation_w_replanning.xml                   # Navigation with replanning
+|       ├── simple_navigation_w_replanning_and_recovery.xml      # Navigation with recovery
 │   ├── config/
-|       ├── behavior_server.yaml
-|       ├── bt_navigator.yaml
-|       ├── controller_server.yaml
-|       ├── costmap.yaml
-|       ├── planner_server.yaml
-|       ├── smoother_server.yaml             
+|       ├── behavior_server.yaml                                 # Behavior server parameters
+|       ├── bt_navigator.yaml                                    # BT navigator parameters
+|       ├── controller_server.yaml                               # Controller server parameters
+|       ├── costmap.yaml                                         # Costmap configuration
+|       ├── planner_server.yaml                                  # Planner server parameters
+|       ├── smoother_server.yaml                                 # Path smoother parameters
 │   └── launch/
-|       ├── navigation.launch.py
+|       ├── navigation.launch.py                                 # Launches full Nav2 stack
 |
 ├── bumperbot_planning/ 
 |   ├── bumperbot_planning/
-|       ├── a_star_planner.py
-|       ├── dijkstra_planner.py        
+|       ├── a_star_planner.py                                    # A* global path planner
+|       ├── dijkstra_planner.py                                  # Dijkstra global path planner
 │   ├── include/
-|       ├── a_star_planner.hpp
-|       ├── dijkstra_planner.hpp                  
-│   └── global_planner_plugins.xml
-|
-├── bumperbot_py_examples/                     # Python examples and tutorials
+|       ├── a_star_planner.hpp                                   # A* planner C++ header
+|       ├── dijkstra_planner.hpp                                 # Dijkstra planner C++ header          
+│   └── global_planner_plugins.xml                               # Plugin registration for global planners
+| 
+├── bumperbot_py_examples/                                       # Python examples and tutorials
 │   └── bumperbot_py_examples/
 │       ├── simple_publisher.py
 │       ├── simple_subscriber.py
@@ -175,10 +175,10 @@ src/
 │       ├── simple_qos_publisher.py
 │       ├── simple_qos_subscriber.py
 │
-├── bumperbot_cpp_examples/                    # C++ examples and tutorials
-│   └── src/                                   # C++ source files
+├── bumperbot_cpp_examples/                                      # C++ examples and tutorials
+│   └── src/                                                     # C++ source files
 │
-├── bumperbot_utils/                           # Utility functions and tools
+├── bumperbot_utils/                                             # Utility functions and tools
 │   └── bumperbotbot_utils/
 │       └── safety_stop.py
 ```
